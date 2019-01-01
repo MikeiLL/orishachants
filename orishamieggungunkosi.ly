@@ -26,6 +26,13 @@ text =  \lyricmode {
 clavebeat = \drummode {
 	\partial 8 r8 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 }
 
 \score {
@@ -33,10 +40,12 @@ clavebeat = \drummode {
   	\new DrumStaff \with {
   		drumStyleTable = #timbales-style
   		\override StaffSymbol.line-count = #1
-  		<<
-		\new DrumVoice = "clave" { \clavebeat }
-		>>
+  		\override BarLine.bar-extend = #'(-1 . 1)
   	}
+  		<<
+  		\set Staff.instrumentName = #"clave"
+		\clavebeat 
+		>>
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
