@@ -1,19 +1,16 @@
-\version "2.18.45"
-\paper {
-	line-width = 4.6\in
-}
+\version "2.18.2"
 
 melody = \relative c' {
   \clef treble
-  \key f \minor
+  \key c \major
   \time 6/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
-			\partial 1/8 d8 |
-			f4 f ges8 f | bes4 bes f8 r | bes4 r2 | r2 r8 d8 |
-			f4 f ges8 f | bes4 bes f8 r | bes4 f2 | r2 r8 d8 |
-			f4 f ges8 f | bes4 bes f8 r | f4. ges4 f8 | bes4 bes f8 r |
-			f4. ges4 f8 | bes4 bes f8 r | bes4 f2 | r2 r8 d8 |
+			\partial 8 b8 |
+			d4 d f8 d | f4 f d8 r | f4 r2 | r2 r8 b,8 |
+			d4 d f8 d | f4 f d8 r | f4 d2 | r2 r8 b8 |
+			d4 d f8 d | f4 f d8 r | f4. f4 d8 | f4 f d8 r |
+			f4 r8 f4 d8 | f4 f d8 r | f4 d2 | r2 r8 b8 |
 			
 		}
 }
@@ -26,27 +23,24 @@ text =  \lyricmode {
 	mi eg -- gun -- gun ko si o O
 }
 
-harmonies = \chordmode {
-	g1:m | g:m | g:m | g:m |
-	g:m | g:m | g:m | g:m |
-	d:m | g:m | d:m | g:m |
+clavebeat = \drummode {
+	\partial 8 r8 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 }
 
 \score {
   <<
-    \new ChordNames {
-      \set chordChanges = ##t
-      \harmonies
-    }
+  	\new DrumStaff \with {
+  		drumStyleTable = #timbales-style
+  		\override StaffSymbol.line-count = #1
+  		<<
+		\new DrumVoice = "clave" { \clavebeat }
+		>>
+  	}
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
+  	
     \new Lyrics \lyricsto "words" \text
   >>
-  \layout { 
-   #(layout-set-staff-size 16)
-   }
-  \midi { 
-  	\tempo 4 = 125
-  }
 }
