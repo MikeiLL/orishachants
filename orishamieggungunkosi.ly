@@ -7,11 +7,12 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\partial 8 b8 |
-			d4 d f8 d | f4 f d8 r | f4 r2 | r2 r8 b,8 |
-			d4 d f8 d | f4 f d8 r | f4 d2 | r2 r8 b8 |
-			d4 d f8 d | f4 f d8 r | f4. f4 d8 | f4 f d8 r |
-			f4 r8 f4 d8 | f4 f d8 r | f4 d2 | r2 r8 b8 |
-			
+			\repeat volta 2 {
+				d4 d f8 d | f4 f d8 r | f4 r2 | r2 r8 b,8 |
+				d4 d f8 d | f4 f d8 r | f4 d2 | r2 r8 b8 |
+				d4 d f8 d | f4 f d8 r | f4. f4 d8 | f4 f d8 r |
+				f4 r8 f4 d8 | f4 f d8 r | f4 d2 | r2 r8 b8 |
+			}
 		}
 }
 
