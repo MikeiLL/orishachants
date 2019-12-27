@@ -1,5 +1,12 @@
 \version "2.18.2"
 
+\header {
+	title = "Iwéré Ijéjé"
+	subtitle = "for Ọbàtálá"
+	copyright = "© Public Domain"
+	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+}
+
 melody = \relative c'' {
   \clef treble
   \key f \major
@@ -47,7 +54,6 @@ clavebeat = \drummode {
   	\new DrumStaff \with {
   		drumStyleTable = #timbales-style
   		\override StaffSymbol.line-count = #1
-  		\override BarLine.bar-extend = #'(-1 . 1)
   	}
   		<<
   		\set Staff.instrumentName = #"clave"
@@ -70,7 +76,7 @@ clavebeat = \drummode {
         \line { My lord, órìṣà. Homage to Father. Homage to Mother. }
         \line { The King of the White Cloth counts cloth. }
         \line { Indeed, how many! }
-        \line { The one saluted, "White cloth has authority." }
+        \line { The one saluted, \italic { White cloth has authority}. }
         \line { Water of the lagoon. Owner of the palace.}
         \line { The king liveth. }
     }
