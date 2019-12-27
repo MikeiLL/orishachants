@@ -35,7 +35,7 @@ text =  \lyricmode {
 	Ì -- bà -- ri Ba -- bà Ì -- bà -- ri Ye -- ye
 	Ọ -- bà -- tá -- lá__ ká' -- ṣọ. Ma mé -- lo!
 	E -- ní kí À -- là -- wà' -- ṣẹ
-	O -- l'o -- mi ọ -- sá, O -- ló -- fin ọ -- ba nla yè.
+	O -- l'o -- mi ọ -- sá, O -- ló -- fin, ọ -- ba nla yè.
 }
 
 clavebeat = \drummode {
@@ -76,8 +76,7 @@ clavebeat = \drummode {
         \line { My lord, órìṣà. Homage to Father. Homage to Mother. }
         \line { The King of the White Cloth counts cloth. }
         \line { Indeed, how many! }
-        \line { The one saluted, \italic { White cloth has authority}. }
-        \line { Water of the lagoon. Owner of the palace.}
-        \line { The king liveth. }
+        \line { The one saluted, \italic {  "\"White cloth has authority\"."} }
+        \line { Water of the lagoon. Owner of the palace, the king liveth. }
     }
 }
