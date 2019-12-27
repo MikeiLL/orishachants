@@ -21,7 +21,7 @@ melody = \relative c'' {
 			 d8. d g8 f4 g | d8. d g8 f4 g | % Ìbàri Babà Ìbàri Yeye
 			 c8. g a8 g4( a) | a8. g a8 g4 a | % Ọbàtálá ká'ṣọ. Ma mélo!
 			 c8. g a8 g8 g a r | % Ení kí Àlàwà'ṣẹ
-			 d,8 r4 e8 d4 e8 d | c8 r4 g'8 a g f4 | % Ol'omi ọ -- sá, Olófin ọ
+			 d,8 r4 e8 d4 e8 d | c8 r4 g'8 a g f4 | % Ol'omi ọsá, Olófin ọ
 			 d8. f f8~ f2 | % ba nla yè.
 			}
 		}
@@ -35,7 +35,7 @@ text =  \lyricmode {
 	Ì -- bà -- ri Ba -- bà Ì -- bà -- ri Ye -- ye
 	Ọ -- bà -- tá -- lá__ ká' -- ṣọ. Ma mé -- lo!
 	E -- ní kí À -- là -- wà' -- ṣẹ
-	O -- l'o -- mi ọ sá, O -- ló -- fin ọ -- ba nla yè.
+	O -- l'o -- mi ọ -- sá, O -- ló -- fin ọ -- ba nla yè.
 }
 
 clavebeat = \drummode {
