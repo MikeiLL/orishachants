@@ -74,7 +74,7 @@ clavebeat = \drummode {
         \line { \null }
         \line { Gentleness, calmness. Gentleness, calmness.}
         \line { My lord, Ọbàtálá.  My lord, órìṣà. Homage to Father. Homage to Mother. }
-        \line { The King of the White Cloth counts cloth. }
+        \line { The child of the King of the White Cloth counts cloth. }
         \line { Indeed, how many! }
         \line { The one saluted, \italic {  "\"White cloth has authority\"."} }
         \line { Water of the lagoon. Owner of the palace, the king liveth. }
