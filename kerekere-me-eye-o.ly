@@ -9,14 +9,14 @@
 
 melody = \relative c'' {
   \clef treble
-  \key f \major
+  \key ees \major
   \time 4/4
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\repeat volta 2 {
-			 % Kerekere m’(i) eye o
-			 % kerekere m’(i) eye o
-			 % a wá mi obatalá. A wá mi olorisá
+			 bes4. c c4 | c2 bes4 g | f1 | r | % Kerekere m’(i) eye o
+			 bes4. c c4 | c2 bes4 g | f2. d4 | g2 f4 d | % kerekere m’(i) eye o a wá mi o
+			 c2 g4 g~ | g1~ | g2 r4 d | g2 % batalá. A wá mi olorisá
 			 % d(i) wo k(i)awó masá; k(i) awo masé
 			 % k(i)awo máá sé réré kùn f`emi oká soso
 			 % a wá dé, a wá mi, a wá dé omo obatalá
@@ -25,12 +25,12 @@ melody = \relative c'' {
 }
 
 text =  \lyricmode {
-	Kerekere m’(i) eye o
-	kerekere m’(i) eye o
-	a wá mi obatalá. A wá mi olorisá
-	d(i) wo k(i)awó masá; k(i) awo masé
-	k(i)awo máá sé réré kùn f`emi oká soso
-	a wá dé, a wá mi, a wá dé omo obatalá
+	Ke -- re -- kere m’(i) eye o__
+	Ke -- re -- ke -- re m’ eye o__
+	A wá mi O -- ba -- ta -- lá. A wá mi ol -- o -- ri -- sá
+	D(i) wo ka -- wó ma -- sá; k(i) a -- wo ma -- sé
+	K(i)a -- wo máá sé réré kùn f`emi o -- ká so -- so
+	A wá dé, a wá mi, a wá dé omo O -- ba -- ta -- lá
 }
 
 clavebeat = \drummode {
