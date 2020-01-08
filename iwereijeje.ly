@@ -15,13 +15,13 @@ melody = \relative c'' {
 	\new Voice = "words" {
 			\repeat volta 2 {
 			 g8. c c8 g4 a | f2. r4 | % Iwéré Ijéjé
-			 g8. c c8 g4 a | f8. g a8 g4 f8 d | % Iwéré Ijéjé Olúwa mí Ọ
-			 c8. g' g8~ g2 | r8. g a8 g4 f8 d | % bàtálá Olúwa mí Ol
-			 c8. e c8~ c2 |  % órìṣà
+			 g8. c c8 g4 a | f8. d f8 d4 e8 d | % Iwéré Ijéjé Olúwa mí Ọ
+			 c8. g' g8~ g2 | r8. d f8 d4 e8 d | % bàtálá Olúwa mí Ol
+			 c8. c c8~ c2 |  % órìṣà
 			 d8. d g8 f4 g | d8. d g8 f4 g | % Ìbàri Babà Ìbàri Yeye
-			 c8. g a8 g a4 | a8. g a8 g4 a | % Ọbàtálá ká'ṣọ. Ma mélo!
+			 c8. g a8 g g a4 | a8. g a8 g4 a | % Ọbàtálá omo ká'ṣọ. Ma mélo!
 			 c8. g a8 g8 g a r | % Ení kí Àlàwà'ṣẹ
-			 d,8 r4 e8 d4 e8 d | c8 r4 g'8 a g f4 | % Ol'omi ọsá, Olófin ọ
+			 d,8 r4 e8 d4 e8 d | c8 r4 g'8 a4 g8 f | % Ol'omi ọsá, Olófin ọ
 			 d8. f f8~ f2 | % ba nla yè.
 			}
 		}
