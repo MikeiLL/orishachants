@@ -68,8 +68,10 @@ clavebeat = \drummode {
         \line { Clearly i am paying respect. Clearly i am honoring him. }
         \line { We come to agitate the king of the white cloth }
         \line { we come to agitate the select-head worshipper }
-        \line { to become an initiate so that mistery will not fade; to greet the one versed in mistery who we definitely derive from }
-        \line { so that the one versed in mistery (obatalá) does not at a distance grumble, enlarge the spirit of the boa only }
+        \line { to become an initiate so that mistery will not fade; }
+        \line { to greet the one versed in mistery who we definitely derive from }
+        \line { so that the one versed in mistery (obatalá) does not at a distance grumble, }
+        \line { enlarge the spirit of the boa only }
         \line { we come the crown. We come to agitate. }
         \line { we come to crown a child of the king of the white cloth }
     }
