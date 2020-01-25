@@ -14,7 +14,7 @@ melody = \relative c'' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\repeat volta 2 {
-			 d4. a f4 | g( f) g r | r a \tuplet 3/2 { c a f~} | f1 | % Baba fu ruru 'lore re o
+			 d,4. a' f4 | g( f) g r | r a \tuplet 3/2 { c a f~} | f1 | % Baba fu ruru 'lore re o
 			 r4. a f4 | g( f) g f | a4. f d4~ | d1 | % ọká ñe ñe Eleyibo,
 			 r4. d a'4 | g2 a4 f | a4. g a4 | f2 f4 r | % E le eri Ifa oba ti ba sawo
 			 r2 \tuplet 3/2 {g4 g g} | c8 c~ c2 g4 | a4. g f4 | g1 | % Eyibo rere oba ti bawo
