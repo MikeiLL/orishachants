@@ -1,5 +1,12 @@
 \version "2.18.2"
 
+\header {
+	title = "Ago. To yo ma le kawa o"
+	subtitle = "for Elegba"
+	copyright = "© Public Domain"
+	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+}
+
 melody = \relative c'' {
   \clef treble
   \key f \major

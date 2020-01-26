@@ -1,5 +1,12 @@
 \version "2.18.2"
 
+\header {
+	title = "Orisha Mi Eggungun Ki Si"
+	subtitle = "for Eggungun"
+	copyright = "© Public Domain"
+	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+}
+
 melody = \relative c' {
   \clef treble
   \key c \major
@@ -53,4 +60,11 @@ clavebeat = \drummode {
   	
     \new Lyrics \lyricsto "words" \text
   >>
+}
+
+\markup {
+    \column {
+        \line { \null }
+        \line { Orisha, mi ancestors, not yet me one of them. }
+    }
 }
