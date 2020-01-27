@@ -30,6 +30,8 @@ text =  \lyricmode {
 	E -- yi -- bo re -- re o -- ba ti ba -- wo
 	E -- nu a -- ye ya -- wa lo -- ro
 	E ya -- wa lo -- ro e -- le -- se  o -- kan
+	E -- le -- se  o -- kan, ba -- ba e -- le -- se  o -- kan
+	E ya -- wa lo -- ro e -- le -- se  o -- kan
 }
 
 clavebeat = \drummode {
