@@ -23,13 +23,13 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	Jo -- wo pa mi se o o -- re ye -- ye Ọ -- ṣun
-	Jo -- wo pa mi se o o -- re ye -- ye Ọ -- ṣun
-	A di di_ di 
-	A di di di
-	Ọ -- ṣun se -- ke -- se o -- lo -- ro ya I -- yun
+	Jo -- wo gba mi se o o -- re ye -- ye Ọ -- ṣun
+	Jo -- wo gba mi se o o -- re ye -- ye Ọ -- ṣun
+	A -- di di ndi 
+	A -- di di ndi
+	Ọ -- ṣun ṣe -- ke -- se o -- lo -- o 'ya I -- yun
 }
-
+Ṣekese oloro 
 clavebeat = \drummode {
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
