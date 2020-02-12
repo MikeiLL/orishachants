@@ -24,7 +24,7 @@ melody = \relative c'' {
 text =  \lyricmode {
 	A -- yí -- lọ -- dá 
 	'ya õ ku o
-	O -- ló -- mọ dé ké ẹ -- yó.
+	O -- ló̩ -- mó̩ dé ké ẹ -- yó.
 	A yà bá.
 }
 
