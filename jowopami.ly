@@ -66,5 +66,6 @@ clavebeat = \drummode {
         \line { \null }
         \line { Jowo means please. Ore means friend. Gba mi is accept me. }
         \line { Yeye means mother. Iya is mother. Iyun is pregnancy or pregnant. }
+        \line { A di di ndi might mean exist. }
     }
 }
