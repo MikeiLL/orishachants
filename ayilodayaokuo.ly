@@ -1,40 +1,34 @@
 \version "2.18.2"
 
 \header {
-	title = "Esu O Elegbara E"
-	subtitle = "for Elegba"
+	title = "Ayílọdá Iya õ ku o"
+	subtitle = "for Oyá"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
 }
 
-melody = \relative c' {
+melody = \relative c'' {
   \clef treble
-  \key c \major
+  \key f \major
   \time 6/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
-	\new Voice = "words" {
-			\partial 4. e4 c8 |
-			
+	\new Voice = "words" {			
 			\repeat volta 2 {
-				d2. | c8 c4 a4 c8 | d2. | r4. e4 c8 |
-				d2. | c8 c4 a4 c8 | d2. | 
-				d8 d d g4. | e8 d e c a4 |
-				c8 c4 a c8 | d4 c2 | r4. e4 c8 |
+				a4 c a | f r4. a8 | g a g2 | r2. | % Ayílọdá 'ya õ ku o
+				f4 a g | f r8 g4 f8 | a4. r4 g8 | % Olómọ dé ké ẹyó. A
+				f4. f4 r8 | % yà bá.
 			}
 		}
 }
 
 text =  \lyricmode {
-	E -- sú o e -- leg -- ba -- ra e
-	E -- sú o e -- leg -- ba -- ra e 
-	E -- leg -- ba -- ra mo -- fo -- ri ba -- le
-	E -- leg -- ba -- ra e o E -- sú
+	A -- yí -- lọ -- dá 
+	'ya õ ku o
+	O -- ló -- mọ dé ké ẹ -- yó.
+	A yà bá.
 }
 
 clavebeat = \drummode {
-	\partial 4. r4. |
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
@@ -57,4 +51,15 @@ clavebeat = \drummode {
   	
     \new Lyrics \lyricsto "words" \text
   >>
+}
+
+\markup {
+    \column {
+        \line { \null }
+        \line { Translation (Based on John Mason): }
+        \line { \null }
+        \line { Revolver who twists to create. Mother. Long life to you. }
+        \line { The owner of children arrives. Shout for Joy. }
+        \line { We turn off to meet her. }
+    }
 }
