@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Ja wo pa mi se o"
+	title = "Jowo pa mi se o"
 	subtitle = "for Ọṣun"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
@@ -23,11 +23,11 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	Ja wo pa mi se o o -- re ye -- ye Ọ -- ṣun
-	Ja wo pa mi se o o -- re ye -- ye Ọ -- ṣun
+	Jo -- wo pa mi se o o -- re ye -- ye Ọ -- ṣun
+	Jo -- wo pa mi se o o -- re ye -- ye Ọ -- ṣun
 	A di di_ di 
 	A di di di
-	Ọ -- ṣun se ye se o -- lo -- ro ye e you
+	Ọ -- ṣun se -- ke -- se o -- lo -- ro ya I -- yun
 }
 
 clavebeat = \drummode {
