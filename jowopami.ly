@@ -27,9 +27,9 @@ text =  \lyricmode {
 	Jo -- wo gba mi se o o -- re ye -- ye Ọ -- ṣun
 	A -- di di ndi 
 	A -- di di ndi
-	Ọ -- ṣun ṣe -- ke -- se o -- lo -- o 'ya I -- yun
+	Ọ -- ṣun ṣe -- ke -- se o -- lo -- o (I)'ya I -- yun
 }
-Ṣekese oloro 
+
 clavebeat = \drummode {
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
