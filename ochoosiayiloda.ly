@@ -10,29 +10,23 @@
 melody = \relative c'' {
   \clef treble
   \key f \major
-  \time 6/8
+  \time 4/4
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {			
 			\repeat volta 2 {
-				a4 c a | f r4. a8 | g a g2 | r2. | % Ayílọdá 'ya õ ku o
-				f4 a g | f r8 g4 f8 | a4. r4 g8 | % Olómọ dé ké ẹyó. A
-				f4. f4 r8 | % yà bá.
+				a4. a f4 | r a d8 c4. | % Ò̩ṣọ́ọ̀sì Ayílọ́ọ̀
+				g2. f8 f | d f4 f8 r2 | % dá Màlàmàlà dé.
 			}
 		}
 }
 
 text =  \lyricmode {
-	A -- yí -- lọ -- dá 
-	'ya õ ku o
-	O -- ló̩ -- mó̩ dé ké ẹ -- yó.
-	A yà bá.
+	Ò̩ -- ṣọ́ọ̀ -- sì A -- yí -- lọ́ọ̀ -- dá 
+	Mà -- là -- mà -- là dé.
 }
 
 clavebeat = \drummode {
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 }
 
 \score {
@@ -58,8 +52,7 @@ clavebeat = \drummode {
         \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
-        \line { Revolver who twists to create. Mother. Long life to you. }
-        \line { The owner of children arrives. Shout for Joy. }
-        \line { We turn off to meet her. }
+        \line { Ò̩ṣọ́ọ̀sì, revolver who turns away famine, }
+        \line { the dazzling one arrives. }
     }
 }
