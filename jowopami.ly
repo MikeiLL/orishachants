@@ -58,7 +58,13 @@ clavebeat = \drummode {
 \markup {
     \column {
         \line { \null }
-        \line { Translation: }
+        \line { Vague Translation (with help from Monilola Balewa): }
         \line { \null }
+        \line { Ọṣun, please accept me, friend. }
+		\line { Exist, exist. }
+		\line { Ọṣun, ever fertile mother of pregnancy. }
+        \line { \null }
+        \line { Jowo means please. Ore means friend. Gba mi is accept me. }
+        \line { Yeye means mother. Iya is mother. Iyun is pregnancy or pregnant. }
     }
 }
