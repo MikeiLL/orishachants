@@ -14,10 +14,10 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\repeat volta 2 {
-			 	d g g f | g8 f r g( f4) g | g2 c4 f, | g4 r2. | % Ja wo pa mi se o ore yeye Ọṣun
+			 	d a' a g | a8 g r a( g4) c | g2 c4 f, | g4 r2. | % Ja wo pa mi se o ore yeye Ọṣun
 				d4 g g f | g8 f r g( f4) g | f2 a4 d, | f4 r2 a4 | % Ja wo pa mi se o ore yeye Ọṣun A
 				c r c a | c r2 a4 | g r g a | g r2 d4 | % di di di A di di di Ọ
-				g r g g | g r a g | f r f g | f r2. | % ṣun se ye se oloro ye e you
+				g r g g | g r g a | f r f g | f r2. | % ṣun se ye se oloro ye e you
 			}
 		}
 }
