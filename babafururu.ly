@@ -13,15 +13,19 @@ melody = \relative c'' {
   \time 4/4
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
-			\repeat volta 2 {
+		\repeat volta 2 {
 			 d,4. a' f4 | g( f) g r | r a \tuplet 3/2 { c a f~} | f1 | % Baba fu ruru 'lore re o
 			 r4. a f4 | g( f) g f | a4. f d4~ | d1 | % ọká ñe ñe Eleyibo,
 			 r4. d a'4 | g2 a4 f | a4. g a4 | f2 f4 r | % E le eri Ifa oba ti ba sawo
 			 r2 \tuplet 3/2 {g4 g g} | c8 c~ c2 g4 | a4. g f4 | g1 | % Eyibo rere oba ti bawo
 			 r2 a4 a | g2 f | c4. e c8 c~ | c1 | % Enu aye yawa loro
-			 d4. d f4 | d2 d4. d8 | e4 e8 c4. d4~ | d1 | % E yawa loro elese okan
+			 d4. d f4 | d2 d4. d8 | e4 e8 c4. d4~ | d2. d4 | % E yawa loro elese okan. E-
 			}
+		\repeat volta 2 {
+			 a'4 a8 f4. g4~ | g2 f4 g8 g | a4 a8 f4. d4~ | d1 | % lese  okan, baba elese okan
+			 d4. d f4 | d2 d4. d8 | e4 e8 c4. d4~ | d2. d4 | % E yawa loro elese okan
 		}
+	}
 }
 
 text =  \lyricmode {
@@ -30,11 +34,13 @@ text =  \lyricmode {
 	E -- yi -- bo re -- re o -- ba ti ba -- wo
 	E -- nu a -- ye ya -- wa lo -- ro
 	E ya -- wa lo -- ro e -- le -- se  o -- kan
-	E -- le -- se  o -- kan, ba -- ba e -- le -- se  o -- kan
-	E ya -- wa lo -- ro e -- le -- se  o -- kan
+	(E) -- le -- se  o -- kan, ba -- ba e -- le -- se  o -- kan
+	E ya -- wa lo -- ro e -- le -- se  o -- kan E
 }
 
 clavebeat = \drummode {
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
