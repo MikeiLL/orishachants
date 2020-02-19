@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Iwéré Ijéjé"
+	title = "Kere kere M’(i) Eye O"
 	subtitle = "for Ọbàtálá"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
@@ -9,39 +9,38 @@
 
 melody = \relative c'' {
   \clef treble
-  \key ees \major
+  \key f \major
   \time 4/4
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
-			\repeat volta 2 {
-			 bes4. c c4 | c2 bes4 g | f1 | r | % Kerekere m’(i) eye o
-			 bes4. c c4 | c2 bes4 g | f2. d4 | g2 f4 d | % kerekere m’(i) eye o a wá mi o
-			 c2 g4 g~ | g1~ | g2 r4 d | g2 % batalá. A wá mi olorisá
-			 % d(i) wo k(i)awó masá; k(i) awo masé
-			 % k(i)awo máá sé réré kùn f`emi oká soso
-			 % a wá dé, a wá mi, a wá dé omo obatalá
+			\repeat volta 4 {
+			 bes8. c c8 c4 bes8 g | f2 r | % Kerekere m’(i) eye o
+			 bes8. c c8 c4 bes8 g | f4. d8 g4 f8 d | % kerekere m’(i) eye o a wá mi o
+			 c4 g'8 g~ g2~ | g4 r8 d g4 f8 d | c8. f c8~ c2 | % batalá. A wá mi olorisá
+			 c8. c g'8 f4 g | c,8 r4 g'8 f4 g | c,8 r4 g'8 f4 g | % d(i) wo k(i)awó masá; k(i) awo masé k(i)awo máá 
+			 c,8 c c e d4 d8 c | bes8. c c8~ c4. r8 | % sé réré kùn f`emi oká soso
+			 f8. f d8~ d2 | e8. e c8~ c2 | d8. g f8 e4 c8 c | e8. e c8~ c2 | % a wá dé, a wá mi, a wá dé omo obatalá
+			 f8. f d8~ d2 | e8. e c8~ c2 | d8. g f8 e4 c8 c | bes8. c c8~ c2 | % a wá dé, a wá mi, a wá dé omo obatalá
 			}
 		}
 }
 
 text =  \lyricmode {
-	Ke -- re -- kere m’(i) eye o__
+	Ke -- re -- ke -- re m’(i) eye o__
 	Ke -- re -- ke -- re m’ eye o__
 	A wá mi O -- ba -- ta -- lá. A wá mi ol -- o -- ri -- sá
-	D(i) wo ka -- wó ma -- sá; k(i) a -- wo ma -- sé
-	K(i)a -- wo máá sé réré kùn f`emi o -- ká so -- so
-	A wá dé, a wá mi, a wá dé omo O -- ba -- ta -- lá
+	D(i) wo ka -- wó ma -- sá; k(i)a -- wo ma -- sé
+	K(i)a -- wo máá sé ré -- ré kùn f`e -- mi o -- ká so -- so
+	A wá dé, a wá mi, a wá dé o -- mo O -- ba -- ta -- lá
+	A wá dé, a wá mi, a wá dé o -- mo O -- ba -- ta -- lá
 }
 
 clavebeat = \drummode {
-	cl8. cl16 r8. cl16 r8 cl8 cl r | cl8. cl16 r8. cl16 r8 cl8 cl r | 
-	cl8. cl16 r8. cl16 r8 cl8 cl r | cl8. cl16 r8. cl16 r8 cl8 cl r | 
-	cl8. cl16 r8. cl16 r8 cl8 cl r | cl8. cl16 r8. cl16 r8 cl8 cl r | 
-	cl8. cl16 r8. cl16 r8 cl8 cl r | cl8. cl16 r8. cl16 r8 cl8 cl r | 
-	cl8. cl16 r8. cl16 r8 cl8 cl r | cl8. cl16 r8. cl16 r8 cl8 cl r | 
-	cl8. cl16 r8. cl16 r8 cl8 cl r | cl8. cl16 r8. cl16 r8 cl8 cl r | 
-	cl8. cl16 r8. cl16 r8 cl8 cl r | cl8. cl16 r8. cl16 r8 cl8 cl r | 
-	cl8. cl16 r8. cl16 r8 cl8 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 }
 
 \score {
