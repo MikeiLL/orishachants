@@ -19,7 +19,7 @@ melody = \relative c'' {
 				g4 g8 a f d | g( f ) r2| % Máāsè ló bí Ṣàngó
 				g8 g g a f d | g16 f f4 f4. | % Gbogbo ará yẹ̀ oní 'kú ele
 				r8 d8 f c4 c8 | d bes g c4 r8 | % Ìyá Máāsè ló bí Ṣàngó
-				d d d f f c | d16 c c4 c8 g8 c |% Gbogbo ará yẹ̀ oní 'kú ele
+				d d d f f c | d16 c c4 c8 g'8 c |% Gbogbo ará yẹ̀ oní 'kú ele
 			}
 		}
 }
