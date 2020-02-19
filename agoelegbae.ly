@@ -4,7 +4,7 @@
 	title = "Ago Elegba E"
 	subtitle = "for Elegba"
 	copyright = "© Public Domain"
-	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
 }
 
 melody = \relative c'' {
@@ -13,36 +13,31 @@ melody = \relative c'' {
   \time 4/4
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
+		\partial 4 f4 % A -
 			\repeat volta 2 {
-			 	% Ago Elegba e
-				% Ago Elegba e
-				% Esu Baba emi e
-				% Esu Baba emi e
-				% Awa la temu e
-				% Awa la temu e
-				% A fe gi so fi e
-				% A fe gi so fi e
-				% Iya Olokun e
-				% Iya Olokun e
-				% Iya Ore Fa e
-				% Iya Ore Fa e
+			 	aes f f d | a2. a4 | c a a g | % go Elegba e Ago Elegba 
+				f2. f8 f | aes f f d | a2. a8 a | c a a g | % e Esu Baba emi e Esu Baba emi 
+				f2. f4 | aes f f d | a2. a4 | c a a g | % E Awa la temu e Awa la temu 
+				f2. f4 | aes f f d | a2. a4 | c a a g | % E A fe gi so fi e A fe gi so fi 
+				f2. f4 | aes f f d | a2. a4 | c a a g | % E Iya Olokun e Iya Olokun
+				f2. f4 | aes f f d | a2. a4 | c a a g | % E Iya Ore Fa e Iya Ore Fa
+				f2. f4 | %  e A - 
 			}
 		}
 }
 
 text =  \lyricmode {
-	Ago Elegba e
-	Ago Elegba e
-	Esu Baba emi e
-	Esu Baba emi e
-	Awa la temu e
-	Awa la temu e
+	A -- go E -- leg -- ba e
+	A -- go E -- leg -- ba e
+	E -- su Ba -- ba e -- mi e
+	E -- su Ba -- ba e -- mi e
+	A -- wa la te -- mu e
+	A -- wa la te -- mu e
 	A fe gi so fi e
 	A fe gi so fi e
-	Iya Olokun e
-	Iya Olokun e
-	Iya Ore Fa e
-	Iya Ore Fa e
+	I -- ya O -- lo - kun e
+	I -- ya O -- lo - kun e
+	I -- ya O -- re Fa e
 }
 
 clavebeat = \drummode {
