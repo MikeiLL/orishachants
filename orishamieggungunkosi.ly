@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Orisha Mi Eggungun Ki Si"
+	title = "Orisha Mi Eggungun Ko Si"
 	subtitle = "for Eggungun"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
