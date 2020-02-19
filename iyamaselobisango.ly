@@ -7,29 +7,34 @@
 	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
 }
 
-melody = \relative c' {
+melody = \relative c'' {
   \clef treble
   \key c \major
   \time 6/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
-			\partial 4 |
-			
+			\partial 4 g8 c | % Ìyá
 			\repeat volta 2 {
-			
+				g4 g8 a f d | g4 r4 g8 c | %  Máāsè ló bí Ṣàngó Ìyá 
+				g4 g8 a f d | g( f ) r2| % Máāsè ló bí Ṣàngó
+				g8 g g a f d | g16 f f4 f4. | % Gbogbo ará yẹ̀ oní 'kú ele
+				r8 d8 f c4 c8 | d bes g c4 r8 | % Ìyá Máāsè ló bí Ṣàngó
+				d d d f f c | d16 c c4 c8 g8 c |% Gbogbo ará yẹ̀ oní 'kú ele
 			}
 		}
 }
 
 text =  \lyricmode {
-	Ìyá Máāsè ló bí Ṣàngó
-	Ìyá Máāsè ló bí Ṣàngó
-	Gbogbo ará yẹ̀ Oníkélé
-	Ìyá Máāsè ló bí Ṣàngó
+	Ì -- yá Máā -- sè ló bí Ṣàn -- gó
+	Ì -- yá Máā -- sè ló bí Ṣàn -- gó
+	Gbo -- gbo a -- rá yẹ̀ o -- ní 'kú e -- le
+	Ì -- yá Máā -- sè ló bí Ṣàn -- gó
+	Gbo -- gbo a -- rá yẹ̀ o -- ní 'kú e -- le
+	Ì -- yá
 }
 
 clavebeat = \drummode {
-	\partial 4. r4. |
+	\partial 4 r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
@@ -54,4 +59,15 @@ clavebeat = \drummode {
   	
     \new Lyrics \lyricsto "words" \text
   >>
+}
+
+\markup {
+    \column {
+        \line { \null }
+        \line { Translation (based on John Mason): }
+        \line { \null }
+        \line { Ìyá Máāsè was used to give birth to Ṣàngó }
+        \line { All inhabitants avoid the owner of violent death. }
+        \line { (Ìyá Máāsè is the oldest female principle in Ṣàngó's worship. ) }
+    }
 }
