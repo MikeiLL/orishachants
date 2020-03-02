@@ -56,7 +56,7 @@ clavebeat = \drummode {
 \markup {
     \column {
         \line { \null }
-        \line { Translation (based on John Mason): }
+        \line { Translation (Based on John Mason): }
         \line { \null }
         \line { Revolver who twists to create. Mother. Long life to you. }
         \line { The owner of children arrives. Shout for Joy. }
