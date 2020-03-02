@@ -1,8 +1,8 @@
 \version "2.18.2"
 
 \header {
-	title = "Ayílọdá Iya õ ku o"
-	subtitle = "for Oyá"
+	title = "Ò̩ṣọọsì Ayílọ́ọ̀dá"
+	subtitle = "for Ò̩ṣọọsì"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
 }
