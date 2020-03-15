@@ -21,7 +21,14 @@ melody = \relative c'' {
 			\repeat volta 2 {
 				g8 g4 g8 g4 | c,8 c4 d f8 | c8 r4 d8( f4) | g8 d4 f4. | % Wúre wúre Alánbẹlè kò Baba lóde
 			}
-		}
+			\repeat volta 2 {
+				f8 f a g g f | f4 r2 | % Ero ma Inle Awua 
+				f8 f a g g f | f g bes c g g | % Ero ma Inle Awua Saguade Iya 
+				f f f f f c' | bes c bes a g r |% Coma Coma coma rele Awua o
+				g g g f f c | c d f a g g | % Ero ma Inle Awua Saguade Iya 
+				c, c c c c c | d f e f4 r8 | % Coma Coma coma rele Awua
+			}
+		}	
 }
 
 text =  \lyricmode {
@@ -30,9 +37,19 @@ text =  \lyricmode {
 	Ba -- ba -- lú -- ai -- yé 'yà nfò 'mo de
 	Ba -- ba ş'i -- re ş'i -- re
 	Wú -- re wú -- re A -- lán -- bẹ lè kò Ba -- ba ló -- de
+	E -- ro ma In -- le A -- wua 
+	E -- ro ma In -- le A -- wua Sa -- gua -- de I -- ya 
+	Co -- ma Co -- ma co -- ma re -- le A -- wua o
+	E -- ro ma In -- le A -- wua Sa -- gua -- de I -- ya 
+	Co -- ma Co -- ma co -- ma re -- le A -- wua
 }
 
 clavebeat = \drummode {
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
