@@ -14,9 +14,12 @@ melody = \relative c'' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {			
 			\repeat volta 2 {
-			r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹ Baba soròso
-			r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹ Baba soròso
-			d8 d d d c4~ | c8 a4 a f8 | g2 f8 f | d8 f4 d8 f r | % Babalúaiyé 'yà nfò 'mo de Baba ş'ire ş'ire
+				r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹBaba soròso
+				r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹBaba soròso
+				d8 d d d c4~ | c8 a4 a f8 | g4 r8 f f4 | g8 a4 g8 a4 | % Babalúaiyé 'yà nfò 'mo de Baba ş'ire ş'ire
+			}		
+			\repeat volta 2 {
+				g8 g4 g8 g4 | c,8 c4 d f8 | c8 r4 d8 f4 | g8( d4) f4. | % Wúre wúre Alánbẹlè kò Baba lóde
 			}
 		}
 }
@@ -26,9 +29,12 @@ text =  \lyricmode {
 	Ba -- ba ẹ Ba -- ba so -- rò -- so
 	Ba -- ba -- lú -- ai -- yé 'yà nfò 'mo de
 	Ba -- ba ş'i -- re ş'i -- re
+	Wú -- re wú -- re A -- lán -- bẹ lè kò Ba -- ba ló -- de
 }
 
 clavebeat = \drummode {
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
@@ -63,6 +69,9 @@ clavebeat = \drummode {
         \line { Father, honored father, bind and facilitate growth.}
         \line { Father, lord of the world, punishment jumps on your child. }
         \line { Father, do good; do good. }
-        \line { }
+        \line { \null }
+        \line { You are wished increased blessings. }
+        \line { You are wished increased blessings. }
+        \line { The owner of living may confront (you), Father on the outskirts. }
     }
 }
