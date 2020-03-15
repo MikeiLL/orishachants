@@ -25,8 +25,8 @@ melody = \relative c'' {
 				f8 f a g g f | f4 r2 | % Ero ma Inle Awua 
 				f8 f a g g f | f g bes c g g | % Ero ma Inle Awua Saguade Iya 
 				f f f f f c' | bes c bes a g r |% Coma Coma coma rele Awua o
-				g g g f f c | c d f a g g | % Ero ma Inle Awua Saguade Iya 
-				c, c c c c f | ees f ees f4 r8 | % Coma Coma coma rele Awua
+				g g g f f c | c d f g f f | % Ero ma Inle Awua Saguade Iya 
+				c c c c c f | ees f ees f4 r8 | % Coma Coma coma rele Awua
 			}
 		}	
 }
