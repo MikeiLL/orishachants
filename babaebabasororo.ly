@@ -16,7 +16,7 @@ melody = \relative c'' {
 			\repeat volta 2 {
 				r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹBaba soròso
 				r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹBaba soròso
-				d8 d d d c4~ | c8 a4 a f8 | g4 r8 f f4 | g8 a4 g8 a4 | % Babalúaiyé 'yà nfò 'mo de Baba ş'ire ş'ire
+				d8 d d d c4~ | c8 a4 a f8 | g4 f f | g8 a4 g8 a4 | % Babalúaiyé 'yà nfò 'mo de Baba ş'ire ş'ire
 			}		
 			\repeat volta 2 {
 				g8 g4 g8 g4 | c,8 c4 d f8 | c8 r4 d8 f4 | g8( d4) f4. | % Wúre wúre Alánbẹlè kò Baba lóde
