@@ -19,7 +19,7 @@ melody = \relative c'' {
 				d8 d d d c4~ | c8 a4 a f8 | g4 f f | g8 a4 g8 a4 | % Babalúaiyé 'yà nfò 'mo de Baba ş'ire ş'ire
 			}		
 			\repeat volta 2 {
-				g8 g4 g8 g4 | c,8 c4 d f8 | c8 r4 d8 f4 | g8( d4) f4. | % Wúre wúre Alánbẹlè kò Baba lóde
+				g8 g4 g8 g4 | c,8 c4 d f8 | c8 r4 d8( f4) | g8 d4 f4. | % Wúre wúre Alánbẹlè kò Baba lóde
 			}
 		}
 }
