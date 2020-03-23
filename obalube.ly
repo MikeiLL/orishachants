@@ -18,12 +18,11 @@ melody = \relative c'' {
 				c4 c r a8 bes | c4 c8 d4. c4 | a1 | r2. a8 bes | % (o)'lù bę, Ọba (o)'lù bę, Ọba yè. Ọba 
 				c4 c r a8 bes | c4 c8 d4. c4 | a1 | r4. c4. bes4 |  % (o)'lù bę, Ọba (o)'lù bę, Ọba yè. Ọba 
 				g2( bes) | r4. bes4. a4 | f4 f a f | % yè. Ọba yáná yáná.
-				r4. 'c4. bes4 | g2( bes) | r4. bes4. a4 | f4 f a f % Ọba yè. Ọba yáná yáná.
-				% Ọba ṣèrè Ṣàngó ílórò.
-				% Ọba ṣèrè Ṣàngó ílórò.
+				r4. c'4. bes4 | g2( bes) | r4. bes4. a4 | f4 f a f | r1 | % Ọba yè. Ọba yáná yáná.
 			}
 		\repeat volta 2 {
-			 
+				g4. g f4 | g1 | f4. f8 f4 d~ | d c2. | % Ọba ṣèrè Ṣàngó ílórò.
+				d4. f d4 | f1 | a4. c8 d4 a~ | a f2. | % Ọba ṣèrè Ṣàngó ílórò.
 		}
 	}
 }
@@ -39,6 +38,8 @@ text =  \lyricmode {
 
 clavebeat = \drummode {
 	\partial 4 r4 | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
@@ -68,11 +69,9 @@ clavebeat = \drummode {
         \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
-        \line { Father of white cloth that rises and swells (like a cloud)}
-        \line { Chief of Ejibo. }
-        \line { The owner of the head of advantage strikes and strikes (with a stick). }
-        \line { Just behold. Ejibo's whips of profit, strike and strike. Behold. }
-        \line { You clean the world. Our tribe has the tradition.  }
-        \line { Our tribe has the tradition as supporters of the boa. }
+        \line { The kind exists. The king exists. The king is alive. }
+        \line { The king is alive, the king who warms himself with fire warms himself with fire. }
+        \line { \null }
+        \line { King of the gourd rattle (ṣèrè), Ṣàngó is wealthy. }
     }
 }
