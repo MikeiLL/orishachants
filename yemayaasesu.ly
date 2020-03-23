@@ -2,7 +2,7 @@
 
 \header {
 	title = "Yemaya Asesu"
-	subtitle = "for Yemaya"
+	subtitle = "for Yemayá"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
 }
@@ -19,17 +19,17 @@ melody = \relative c'' {
 				a2. | r8 b c d b a | g2. | r8 g g c g g |
 				a2. | r8 b c d b a | g2. |
 				a8 a4 a8 e g~ | g4 e8( d4. ) | r8 e g e c c | c2. |
-				a'8 a4 a8 e g~ | g4 e8( d4. ) | r8 e g e c c | c2. | r8 g g c g g |
+				a'8 a4 a8 e g~ | g4 e8( d4. ) | r8 e g e c c | c2. | r8 g' g c g g |
 			}
 		}
 }
 
 text =  \lyricmode {
-	Ye -- ma -- ya A -- se -- su A -- se -- su Ye -- ma -- ya 
-	Ye -- ma -- ya A -- se -- su A -- se -- su Ye -- ma -- ya 
-	Ye -- ma -- ya O -- lo -- do O -- lo -- do Ye -- ma -- ya 
-	Ye -- ma -- ya O -- lo -- do O -- lo -- do Ye -- ma -- ya 
-	Ye -- ma -- ya A -- se -- 
+	Ye -- ma -- yá A -- se -- sú A -- se -- sú Ye -- ma -- yá 
+	Ye -- ma -- yá A -- se -- sú A -- se -- sú Ye -- ma -- yá 
+	Ye -- ma -- yá O -- ló -- dò O -- ló -- dò Ye -- ma -- yá 
+	Ye -- ma -- yá O -- ló -- dò O -- ló -- dò Ye -- ma -- yá 
+	Ye -- ma -- yá A -- se 
 }
 
 clavebeat = \drummode {
@@ -60,4 +60,17 @@ clavebeat = \drummode {
   	
     \new Lyrics \lyricsto "words" \text
   >>
+}
+
+\markup {
+    \column {
+        \line { \null }
+        \line { Translation (based on John Mason and Migene Gonzales-Wippler): }
+        \line { \null }
+        \line { Migene Gonzales-Wippler writes that Yemayá Asesú is the path of Yemayá }
+        \line { who lives in dirty and polluted waters. }
+        \line { John Mason translates Asè'sun as the fast gush of the spring. }
+        \line { Yemayá Olódò is the owner of rivers. }
+        \line { \null }
+    }
 }
