@@ -19,8 +19,9 @@ melody = \relative c'' {
 				g2 r4 | e8 e e e c d | e4. r | r a4 e8 | % dé. Ibàrìbá ṣé kè ṣé. Oyá 
 				g2 r4 | e8 e e e c d | e4. r8 d e | % dé. Ibàrìbá ṣé kè ṣé. Àgò 
 				a g e g4 e8 | c4 r2 | % Àgò ilé; àgò lónà.
-				d8 d d d4 e8 | c4 d8 a4 c8 | r2. | r4. a'4 e8 |% Ọyá dé ire o. Ọyá dé.  Ọyá
+				d8 d d d4 e8 | c4 d8 a c4 | r2. | r4. a'4 e8 |% Ọyá dé ire o. Ọyá dé.  Ọyá
 			}
+			
 		}
 }
 
@@ -29,6 +30,14 @@ text =  \lyricmode {
 	Ọ -- yá dé. I -- bà -- rì -- bá ṣé kè ṣé.
 	À -- gò i -- lé; à -- gò ló -- nà.
 	Ọ -- yá dé i -- re o. Ọ -- yá dé. Ọ -- yá 
+	
+	% In progress:
+	% Ọ -- yá dé. Ọ -- yá dé. Iya na de 
+	% Sa ka ka lona E Osun la ka de
+	% Ọ -- yá dé. Ọ -- yá dé. Moti nisa 
+	% Sa ka ka lona E Osun Ọ -- yá de
+	% 
+	% A e Ọ -- yá dé A e 
 }
 
 clavebeat = \drummode {
