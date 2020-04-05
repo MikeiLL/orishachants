@@ -1,6 +1,7 @@
 ẹ
 ẹ̀
 ẹ̀
+n̄
 ọ
 ọ̀
 ọ́
@@ -10,3 +11,54 @@
 Ọ
 
 Resource: https://www.ucl.ac.uk/atlas/yoruba/characters_sounds.html
+
+Resource: https://en.wikipedia.org/wiki/Yoruba_language#Writing_system
+
+Á
+À
+Ā
+É
+È
+Ē
+Ẹ / E̩
+Ẹ́ / É̩
+Ẹ̀ / È̩
+Ẹ̄ / Ē̩
+Í
+Ì
+Ī
+Ó
+Ò
+Ō
+Ọ / O̩
+Ọ́/ Ó̩
+Ọ̀ / Ò̩
+Ọ̄ / Ō̩
+Ú
+Ù
+Ū
+Ṣ / S̩
+á
+à
+ā
+é
+è
+ē
+ẹ / e̩
+ẹ́ / é̩
+ẹ̀ / è̩
+ẹ̄ / ē̩
+í
+ì
+ī
+ó
+ò
+ō
+ọ / o̩
+ọ́ / ó̩
+ọ̀ / ò̩
+ọ̄ / ō̩
+ú
+ù
+ū
+ṣ / s̩
