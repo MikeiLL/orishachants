@@ -62,6 +62,16 @@ clavebeat = \drummode {
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | 
 }
 
 \score {
@@ -90,5 +100,10 @@ clavebeat = \drummode {
         \line { Revolver who twists to create. Mother. Long life to you. }
         \line { The owner of children arrives. Shout for Joy. }
         \line { We turn off to meet her. }
+        \line { \null }
+        \line { The tearer arrives noisily. }
+        \line { The tearer who splits has a tradition of trousers. }
+        \line { Oyá arrives. Oyá arrives. }
+        \line { Oyá arrives noisily. Oyá arrives noisily. }
     }
 }
