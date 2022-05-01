@@ -48,7 +48,7 @@ text =  \lyricmode {
   A -- la -- wa -- na ki la pon ṣe
 	A -- so ke
 	ṣe. A -- so ke -- re -- re
-	A -- go E -- leg -- ba o -- lo -- kun a -- ṣe
+	A -- go E -- leg -- ba o -- lò -- kun a -- ṣe
   A -- so
   ṣe. E -- leg -- ba E -- leg -- ba
   A -- so ke -- re ke -- re me ye
@@ -88,5 +88,15 @@ clavebeat = \drummode {
 \markup {
     \column {
         \line { \null }
+        \line { Translation (Based on John Mason's similar words - this transcribed from Abbilone): }
+        \line { \null }
+        \line { The little argument that I survive }
+        \line { Talkative one, let the homage and sacrifice be fulfilled. }
+        \line { \null }
+        \line { Coro: Little, little argument. }
+        \line { Akpwon: Make way. The energy of Elegba, the strong one. }
+        \line { \null }
+        \line { Elegba, Elegba, little argument that I survive. }
+        \line { Elegba, Elegba, let the homage and sacrifice be fulfilled. }
     }
 }
