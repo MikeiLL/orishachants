@@ -40,6 +40,9 @@ melody = \relative c' {
 				c, r8 e4. g4 | c, r e g8 g~ | g g4 g8 f4 a | g4. e g4 | % ba Elegba ase Kere Kere me ye Elegba Eleg...
 				c, r8 e4. g4 | c, r c d8 e~ | e e4 e8 d4 d | c4. e g4 % ba Alewana ki la ponse Eleg...
 			}
+			\repeat volta 2 {
+				c,2 a2~ | a8 c4 e8 e2 | e4 e a g | e g8 g4. r4 % So sa so kere A laroye so kere
+			}
 		}
 }
 
@@ -55,6 +58,7 @@ text =  \lyricmode {
   E -- leg -- ba E -- leg -- ba
   A -- la -- wa -- na ki la pon ṣe
 	E -- leg
+	So sa so ke -- re A -- la -- ro -- ye so ke -- re
 }
 
 clavebeat = \drummode {
@@ -88,7 +92,7 @@ clavebeat = \drummode {
 \markup {
     \column {
         \line { \null }
-        \line { Translation (Based on John Mason's similar words - this transcribed from Abbilone): }
+        \line { Translation (Based on John Mason's similar words - this transcribed from Abbilona): }
         \line { \null }
         \line { The little argument that I survive }
         \line { Talkative one, let the homage and sacrifice be fulfilled. }
@@ -97,6 +101,9 @@ clavebeat = \drummode {
         \line { Akpwon: Make way. The energy of Elegba, the strong one. }
         \line { \null }
         \line { Elegba, Elegba, little argument that I survive. }
-        \line { Elegba, Elegba, let the homage and sacrifice be fulfilled. }
+        \line { Elegba, Elegba, talkative one, let the homage and sacrifice be fulfilled. }
+        \line { \null }
+        \line { Coro: Talk a long time. Talk little. }
+        \line { Akpwon: The talkative one talks little. }
     }
 }
