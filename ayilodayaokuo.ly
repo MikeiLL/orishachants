@@ -12,49 +12,49 @@ melody = \relative c'' {
   \key f \major
   \time 6/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
-	\new Voice = "words" {			
+	\new Voice = "words" {
 			\repeat volta 2 {
 				a4 c a | f r4. a8 | g a g2 | r2. | % Ayílọdá 'ya õ ku o
 				f4 a g | f r8 g4 f8 | a4. r4 g8 | % Olómọ dé ké ẹyó. A
 				f4. f4 r8 | % yà bá.
-			}			
+			}
 			\repeat volta 2 {
-				f4 a4. a8~ | a2( g8 f) | g4 a4. g8~ | g2. % Oyá de ariwo. 
+				f4 a4. a8~ | a2( g8 f) | g4 a4. g8~ | g2. % Oyá de ariwo.
 				f4 a g | f4. d4( c8) | % Ọya-n̄-sàn l'órò
 			}
 			\alternative {
 			  { f4 f f~ | f2. | } % ṣòkòtò
-			  { f4 f f~ | f r8 d'4 a8 | } % ṣòkòtò. Oyá  
+			  { f4 f f~ | f r8 d'4 a8 | } % ṣòkòtò. Oyá
 			}
 			\repeat volta 2 {
-				c2 d8( a~) | a4 d d | % de e Oyá 
-				c2 d8( a~) | % de e 
+				c2 d8( a~) | a4 d d | % de e Oyá
+				c2 d8( a~) | % de e
 			}
 			\alternative {
 			  { a4 d d |  } % Oyá
-			  { a4 a a |  } % Oyá  
+			  { a4 a a |  } % Oyá
 			}
 			\repeat volta 2 {
-				g8 r f bes a4 | f8 r a4 a | % de a -- ri -- wo 'ya. O -- yá 
-				g8 r f bes a4 | f8 r a4 a | % de a -- ri -- wo 'ya. O -- yá 
+				g8 r f bes a4 | f8 r a4 a | % de a -- ri -- wo 'ya. O -- yá
+				g8 r f bes a4 | f8 r a4 a | % de a -- ri -- wo 'ya. O -- yá
 			}
 		}
 }
 
 text =  \lyricmode {
-	A -- yí -- lọ -- dá 
+	A -- yí -- lọ -- dá
 	'ya õ ku o
 	O -- ló̩ -- mó̩ dé ké ẹ -- yó.
 	A yà bá.
 	O -- yá de a -- ri -- wo. Ọ -- ya-n̄- -- sàn l'ó -- rò ṣò -- kò -- tò.
 	ṣò -- kò -- tò.
 	O -- yá de e. O -- yá de e.
-	O -- yá 
-	e O -- yá 
+	O -- yá
+	e O -- yá
 	de a -- ri -- wo 'ya.
-	O -- yá 
+	O -- yá
 	de a -- ri -- wo 'ya.
-	O -- yá 
+	O -- yá
 }
 
 clavebeat = \drummode {
@@ -71,7 +71,7 @@ clavebeat = \drummode {
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
-	cl4 cl r8 cl8 | 
+	cl4 cl r8 cl8 |
 }
 
 \score {
@@ -82,12 +82,12 @@ clavebeat = \drummode {
   	}
   		<<
   		\set Staff.instrumentName = #"clave"
-		\clavebeat 
+		\clavebeat
 		>>
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
-  	
+
     \new Lyrics \lyricsto "words" \text
   >>
 }
