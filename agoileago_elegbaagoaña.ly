@@ -37,8 +37,8 @@ text =  \lyricmode {
 
 	E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.
 	(E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.)
-	A La -- ro -- ya ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.
-	(A La -- ro -- ya ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.)
+	A La -- ro -- ye ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.
+	(A La -- ro -- ye ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.)
 }
 
 clavebeat = \drummode {
