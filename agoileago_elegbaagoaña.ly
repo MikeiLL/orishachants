@@ -2,9 +2,9 @@
 
 \header {
 	title = "Ago Ile Ago/Elegua Ago Aña"
-	subtitle = "for Yemaya"
+	subtitle = "for Eleggua and Aña"
 	copyright = "© Public Domain"
-	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	tagline = "Transcribed in 2022 by Pinpin Balewa for Osun's Golden Harvest of Love and Light Pensacola, Florida"
 }
 
 melody = \relative c'' {
@@ -15,8 +15,14 @@ melody = \relative c'' {
 	\new Voice = "words" {
 
 			\repeat volta 2 {
-				f4 f8 g ees4 | c8 f4 r4. | f4 f8 g ees4 | c8 f4 r4. | % ago ile ago x2
-				c4 c8 c ees4 | c8 ees4 bes r8 | c4 c8 c ees4 | c8 ees4 bes r8 | % % ago ile ago 'ya
+				d4 d8 e c4 | a8 d4 r4. | d4 d8 e c4 | a8 d4 r4. | % aeo ile aeo x2
+				a4 a8 a c4 | a8 c4 g r8 | a4 a8 a c4 | a8 c4 g r8 | % % aeo ile aeo 'ya
+			}
+			\repeat volta 2 {
+				r4 a8 a a a | c2. | r2. | r4 a8 d c c | a a4 f8 r4 |
+				r4 a8 a a a | c2. | r2. | r4 a8 d c c | a a4 f8 r4 |
+				d'8 d4 d8 c4 | a8 a4 a8 g4 | r4 f8 f g g | a a4 f8 r4 |
+				d'8 d4 d8 c4 | a8 a4 a8 g4 | r4 f8 f g g | a a4 f8 r4 |
 			}
 		}
 }
@@ -26,9 +32,24 @@ text =  \lyricmode {
 	(A -- go, I -- le. A -- go.)
 	A -- go, I -- le A -- go 'ya.
 	(A -- go, I -- le A -- go 'ya.)
+
+	E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.
+	(E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.)
+	A La -- ro -- ya ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.
+	(A La -- ro -- ya ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.)
 }
 
 clavebeat = \drummode {
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
@@ -58,7 +79,9 @@ clavebeat = \drummode {
         \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
-        \line { Where is goodness? Where is goodness? }
-        \line { Make way on the road of water. We look for it. }
+        \line { Make way in the house/temple. Make way. }
+        \line { Eleggua, make way for Aña (spirit of the drum). }
+        \line { To Laroye (path of Esu who manages realm of communication) we give praise. }
+        \line { Eleggua, make way for Aña. }
     }
 }
