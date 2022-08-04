@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Ago Ile Ago/Elegua Ago Aña"
+	title = "Ago Ile Ago/Eleggua Ago Aña"
 	subtitle = "for Eleggua and Aña"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2022 by Pinpin Balewa for Osun's Golden Harvest of Love and Light Pensacola, Florida"
@@ -16,6 +16,8 @@ melody = \relative c'' {
 
 			\repeat volta 2 {
 				d4 d8 e c4 | a8 d4 r4. | d4 d8 e c4 | a8 d4 r4. | % aeo ile aeo x2
+			}
+			\repeat volta 2 {
 				a4 a8 a c4 | a8 c4 g r8 | a4 a8 a c4 | a8 c4 g r8 | % % aeo ile aeo 'ya
 			}
 			\repeat volta 2 {
