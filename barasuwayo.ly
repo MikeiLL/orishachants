@@ -23,10 +23,10 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	Ba -- ra Sú -- wà Yọ ọ -- mọ (y)à -- là -- wà -- 'nà
+	Ba -- ra Sú -- wà Yọ ọ -- mọ (ny)à -- là -- wà -- 'nà
 	Má -- mà kē -- 'nya ir' -- a -- wo e
 	O Ba -- ra (s')wá yọ Ẹ -- kẹ, È -- ṣù Ọ̀ -- dà -- rà
-	ọ -- mọ (y)à -- là -- wà -- 'nà
+	ọ -- mọ (ny)à -- là -- wà -- 'nà
 	Má -- mà kē -- 'nya ir -- 'a -- wo e
 }
 
