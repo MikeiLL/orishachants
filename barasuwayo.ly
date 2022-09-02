@@ -14,11 +14,11 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 					\partial 2 \tuplet 3/2 { d4 d d } | % Bara Sú
-					g4. g4.~ g4~ | g1 | r4 d8 d f4 g | a g f d | % wà Yọ ọmọ (y)àlàwà'nà Mámà
-					f c8 c d4 d~ | d( c8 a) c2~ | c1~ | c~ | c2 r | % kē'ní ir'awo e
+					g4. g4.~ g4~ | g1 | r4 d8 d f4 g | a g e c | % wà Yọ ọmọ (y)àlàwà'nà Mámà
+					f a,8 a d4 d~ | d( c8 a) c2~ | c1~ | c~ | c2 r | % kē'ní ir'awo e
 					d4 g f g | d1~ | d~ | d2 r | f g( | d1)~ | d~ | d2 r | f4. f8 f4 c | c1~ | c | % O Bara wá yọ Ẹkẹ, Èṣù Ọ̀dàrà
-					r4 d8 d f4 g | a g f d | % ọmọ (y)àlàwà'nà Mámà
-					f c8 c d4 d~ | d( c8 a) c2~ | c1~ | c~ | % kē'ní ir'awo e
+					r4 d8 d f4 g | a g e c | % ọmọ (y)àlàwà'nà Mámà
+					f a,8 a d4 d~ | d( c8 a) c2~ | c1~ | c~ | % kē'ní ir'awo e
 		}
 }
 
