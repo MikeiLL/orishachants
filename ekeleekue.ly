@@ -1,37 +1,38 @@
 \version "2.18.2"
 
 \header {
-	title = "Ibo Rere?"
-	subtitle = "for Yemaya"
+	title = "Ẹ kẹ́ là Èwe"
+	subtitle = "for Egun"
 	copyright = "© Public Domain"
-	tagline = "Transcribed in 2019 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	tagline = "Transcribed in 2022 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	piece = "rhythm: odudwa"
 }
 
-melody = \relative c'' {
+melody = \relative c' {
   \clef treble
   \key f \major
   \time 6/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
-			\partial 4 c8 c | %Ibo
-			
 			\repeat volta 2 {
-				f8 f4. e8 c | f f e4 r | % rere? Ibo rere o? 
-				f8 f f f g f | e r8 r4 e8 e | % Àgò l'ònà fu a wá. Ibo 
-				g g4. e8 c | d d bes2 | % rere? Ibo rere o? 
-				c8 c c c d bes | c4 r c8 c | % Àgò l'ònà fu a wá. Ibo 
+				d2 d4 | f2 d4 | f2.~ | f2. | % Ẹ kẹ́ là èwe.
+				a2 a4 | c2 g8 a | f2 g8 a | g a g f d4 | % Ẹ kẹ́ là èwe o Ikú Olódùmarè
+				d2 d4 | f2 c8 d | bes2 d4 | f2 d8 f | d2.~ | d | r | r | % Ẹ kẹ́ là èwe o kọ́ dídè o
 			}
 		}
 }
 
 text =  \lyricmode {
-	I -- bo re -- re? I -- bo re -- re o? À -- gò l'ò -- nà fu a wá.
-	I -- bo re -- re? I -- bo re -- re o? À -- gò l'ò -- nà fu a wá.
-	I -- bo 
+	Ẹ kẹ́ là è -- we.
+	Ẹ kẹ́ là è -- we o I -- kú O -- ló -- dù -- ma -- rè
+	Ẹ kẹ́ là è -- we o o kọ́ dí -- dè o
 }
 
 clavebeat = \drummode {
-	\partial 4 r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
@@ -46,12 +47,12 @@ clavebeat = \drummode {
   	}
   		<<
   		\set Staff.instrumentName = #"clave"
-		\clavebeat 
+		\clavebeat
 		>>
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
-  	
+
     \new Lyrics \lyricsto "words" \text
   >>
 }
@@ -61,7 +62,8 @@ clavebeat = \drummode {
         \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
-        \line { Where is goodness? Where is goodness? }
-        \line { Make way on the road of water. We look for it. }
+        \line { You pamper to save a child. }
+        \line { You pamper to save a child from God's death. }
+        \line { You pamper to save a child so they are not bound. }
     }
 }
