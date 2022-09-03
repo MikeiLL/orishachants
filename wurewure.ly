@@ -2,7 +2,7 @@
 
 \header {
 	title = "Wúre Wúre ko're Ìrókò"
-	subtitle = "for Babalúaiyé"
+	subtitle = "for Ṣàngó"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
 }
