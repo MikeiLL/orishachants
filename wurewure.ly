@@ -14,7 +14,7 @@ melody = \relative c'' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\repeat volta 2 {
-					% E Wúre wúre ko're Ìrókò
+				r4. a4.~ a4 | g8 g4 a8~ a a4 g8~ | g8 g4 a8~ a a4 d,8~ | d4 r8	% E Wúre wúre ko're Ìrókò
 					% Ìrókò ló̩ kẹ́kẹ́. Àràbà ilẹ̀ kò rí ààbà ní
 					% Ààbà nya lu mí de
 					% Olú kò so
