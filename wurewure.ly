@@ -33,8 +33,8 @@ text =  \lyricmode {
 	Àà -- bà nya lu mí de
 	O -- lú kò so
 	mà -- là de ká wòó
-	(A i -- nà bú ká -- ka) wo
-	(A i -- nà bú ká -- ka) wo
+	(A i -- nà bú ká -- ka) wòó
+	(A i -- nà bú ká -- ka) wòó
 }
 
 clavebeat = \drummode {
@@ -78,5 +78,8 @@ clavebeat = \drummode {
         \line { The Chief who did not hang, dazzling whiteness, arrives. }
 
         \line { The chant: Dazzling whiteness arrives. Behold. (The fire roars violently.) }
+
+        \line { \null }
+        \line { Ayala and wòó may substitute for A at beginning, Ṣàngó for mà -- là in chant.) }
     }
 }
