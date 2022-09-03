@@ -68,6 +68,7 @@ clavebeat = \drummode {
         \line { There is a recording of Abbilona doing this song, title Rezos a Shango. }
         \line { In the refrain, akpwon repeats the màlà te ka wo, interweaving with coro. }
         \line { Only the wo of that interwoven part is engraved above. }
+        \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
         \line { Implore blessings. Implore blessings. But not the blessings of Ìrókò. }
