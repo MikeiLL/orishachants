@@ -14,19 +14,31 @@ melody = \relative c'' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\repeat volta 2 {
-
+					% E Wúre wúre ko're Ìrókò
+					% Ìrókò ló̩ kẹ́kẹ́. Àràbà ilẹ̀ kò rí ààbà ní
+					% Ààbà nya lu mí de
+					% Olú kò so
+					% Màlà te ka wo
+					% A inà bú káka
 			}
 
 		}
 }
 
 text =  \lyricmode {
-	E Wúre wúre ko're Ìrókò
-	Ìrókò ló̩ kẹ́kẹ́. Àràbà ilẹ̀
+	E Wú -- re wú -- re ko -- 're Ì -- ró -- kò
+	Ì -- ró -- kò ló̩ kẹ́ -- kẹ́. À -- rà -- bà i -- lẹ̀ kò rí àà -- bà ní
+	Àà -- bà nya lu mí de
+	O -- lú kò so
+	Mà -- là te ka wo
+	A i -- nà bú ká -- ka
 }
 
 clavebeat = \drummode {
-
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 }
 
 \score {
