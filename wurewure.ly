@@ -80,6 +80,6 @@ clavebeat = \drummode {
         \line { The chant: Dazzling whiteness arrives. Behold. (The fire roars violently.) }
 
         \line { \null }
-        \line { Ayala and wòó may substitute for A at beginning, Ṣàngó for mà -- là in chant.) }
+        \line { Ayala and wòó may substitute for A at beginning, Ṣàngó for màlà in chant.) }
     }
 }
