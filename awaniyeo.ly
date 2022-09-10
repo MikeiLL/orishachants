@@ -12,13 +12,13 @@ melody = \relative c' {
   \key f \major
   \time 6/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
-	\new Voice = "words" {	
-			\partial 2 f8 a g a | % A wa ni e 		
+	\new Voice = "words" {
+			r2. | r4 f8 a g a | % A wa ni e
 			\repeat volta 2 {
-				g2.~ | g8 r f a f f | f2.~ | f8 r f a g a | % o Ogun Mariwo A wa ni e 
-				g2.~ | g8 r f a f f | f r f a4 a8 | % o Ogun Mariwo Ogun o 
-				f8 d16 d8 d16 f8 f f | d4 d8 r4. | % fomo de Onile Abe re 
-				r8 f f f a4 | c4 a4. g8~ | g4 f2 | r4 f8 a g a |% Mariwo Ogun de Bamba
+				g2.~ | g8 r f a f f | f2.~ | f8 r f a g a | % o Ogun Mariwo A wa ni e
+				g2.~ | g8 r f a f f | f r f a a a | % o Ogun Mariwo Ogun ofo
+				f d d f f f | d4 d8 r f f | % mo de Onile Abe re Mari
+				f4 a8 c4 a8~ | a4 g4. f8~ | f4 f8 a g a |% wo Ogun de Bamba A wa ni e
 			}
 		}
 }
@@ -26,12 +26,14 @@ melody = \relative c' {
 text =  \lyricmode {
 	A wa ni e o O -- gun Ma -- ri -- wo
 	A wa ni e o O -- gun Ma -- ri -- wo
-	O -- gun o fo -- mo de O -- ni -- le A -- be re 
-	Ma -- ri -- wo O -- gun de Bam -- ba. A wa ni e 
+	O -- gun o fo -- mo de O -- ni -- le A -- be re
+	Ma -- ri -- wo O -- gun de Bam -- ba. A wa ni e
 }
 
 clavebeat = \drummode {
-	\partial 2 r2 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
@@ -46,12 +48,12 @@ clavebeat = \drummode {
   	}
   		<<
   		\set Staff.instrumentName = #"clave"
-		\clavebeat 
+		\clavebeat
 		>>
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
-  	
+
     \new Lyrics \lyricsto "words" \text
   >>
 }
