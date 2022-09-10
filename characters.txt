@@ -1,5 +1,9 @@
 Source: http://diacritics.typo.cz/index.php?id=71
 a (á à ā) b d e (é è ē ẹ/e̩ ẹ́/é̩ ẹ̀/è̩ ẹ̄/ē̩) f g gb h i (í ì ī) j k l m n o (ó ò ō ọ/o̩ ọ́/ó̩ ọ̀/ò̩ ọ̄/ō̩) p r s (ṣ) t u (ú ù ū) v w y z
+á â ǎ é ê ě ẹ ệ í î ǐ ó ô ǒ ọ ̀ ́ ̃ ̄ ̌
+Á Â Ǎ É Ê Ě Ẹ Ệ Í Î Ǐ Ó Ô Ǒ Ọ
+
+È
 
 ẹ
 ẹ̀
