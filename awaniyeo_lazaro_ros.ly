@@ -1,8 +1,8 @@
 \version "2.18.2"
 
 \header {
-	title = "A Wa Ni Ye O Ogun Mariwo"
-	subtitle = "for Ogun"
+	title = "A Wa Ni Ye O Ògún Mariwo"
+	subtitle = "for Ògún"
 	copyright = "© Public Domain"
 	piece = "rhythm: chachalokofu (slow)"
 	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
@@ -15,10 +15,10 @@ melody = \relative c' {
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
 			\repeat volta 2 {
-				r8 f4 a8 f4 a | g1 | f8 a4 f8 f4 f~ | f1 | % A wa ni e o Ogun Mariwo
-				r8 f4 a8 f4 a | g1 | f8 a4 f8 f4 f | d8 f4 f8 d4 d8 c | % A wa ni e o Ogun Mariwo Ogun o fomo de
+				r8 f4 a8 f4 a | g1 | f8 a4 f8 f4 f~ | f1 | % A wa ni e o Ògún Mariwo
+				r8 f4 a8 f4 a | g1 | f8 a4 f8 f4 f | d8 f4 f8 d4 d8 c | % A wa ni e o Ògún Mariwo Ògún o fomo de
 				r4. f8 a4 f8 f | d4 d r f8 f | % Onile Abe re
-				f4 a c a~ | a f f2 |  % Mariwo Ogun de Bamba
+				f4 a c a~ | a f f2 |  % Mariwo Ògún de Bamba
 			}
 			\repeat volta 2 {
 				f4. d8 c4 d | f2 f2 | g8 a4 a g a8~ | a8 a4 g4. r4 | % E ma -- ri -- wo yan yan Aare re Aare re o
@@ -27,10 +27,10 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	A wa ni e o O -- gun Ma -- ri -- wo
-	A wa ni e o O -- gun Ma -- ri -- wo
-	O -- gun o fo -- mo de O -- ni -- le A -- be re
-	Ma -- ri -- wo O -- gun de Bam -- ba.
+	A wa ni e o Ò -- gún Ma -- ri -- wo
+	A wa ni e o Ò -- gún Ma -- ri -- wo
+	Ò -- gún o fo -- mo de O -- ni -- le A -- be re
+	Ma -- ri -- wo Ò -- gún de Bam -- ba.
 	E ma -- ri -- wo yan yan Aa -- re re Aa -- re re o
 }
 
@@ -64,9 +64,9 @@ clavebeat = \drummode {
         \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
-        \line { We come to honor you, Ogun of the Palm Fronds. }
-        \line { Ogun you scrub clean the hunter, owner of the house. }
-        \line { Razor that cuts palm fronds. Ogun arrives, the stout one.}
+        \line { We come to honor you, Ògún of the Palm Fronds. }
+        \line { Ògún you scrub clean the hunter, owner of the house. }
+        \line { Razor that cuts palm fronds. Ògún arrives, the stout one.}
         \line { \null }
 				\line { There is a recording of Lazaro Ros doing this song, title Awaniyeo, Awanile... }
     }
