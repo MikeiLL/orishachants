@@ -110,8 +110,8 @@ clavebeat = \drummode {
         \line { Ògún you scrub clean the hunter, owner of the house. }
         \line { Razor that cuts palm fronds. Ògún arrives, the stout one.}
         \line { \null }
-        \line { \We come to honor you, chief of Ìré. }
-        \line { \Do not block or turn aside initiates. }
+        \line { We come to honor you, chief of Ìré. }
+        \line { Do not block or turn aside initiates. }
         \line { \null }
         \line { In second song, Akpwon sings full song first time, then just the last part (not in parens) }
     }
