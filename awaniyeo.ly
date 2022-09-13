@@ -20,6 +20,15 @@ melody = \relative c' {
 				f d d f f f | d4 d8 r f f | % mo de Onile Abe re Mari
 				f4 a8 c4 a8~ | a4 g4. f8~ | f4 f8 a g a |% wo Ogun de Bamba A wa ni e
 			}
+			\repeat volta 2 {
+				g4 a8 a g4 | a8 a4 g8 r4 | % Aa -- re aa -- re o
+				f4 d8 d d4 | f4. f8 r4 | % (E Ma -- ri -- wo yan yan)
+			}
+
+			\repeat volta 2 {
+				g2 f4 | d8 d4 f4. | % E aa -- re -- re o
+	 			g4 a8 a g4 | a8 a4 g8 r4 | % aa -- re -- re aa -- re -- re o
+			}
 		}
 }
 
@@ -28,6 +37,11 @@ text =  \lyricmode {
 	A wa ni e o O -- gun Ma -- ri -- wo
 	O -- gun o fo -- mo de O -- ni -- le A -- be re
 	Ma -- ri -- wo O -- gun de Bam -- ba. A wa ni e
+
+	Aa -- re -- re aa -- re -- re o (E Ma -- ri -- wo yan yan)
+
+	E aa -- re -- re o
+	(aa -- re -- re aa -- re -- re o)
 }
 
 clavebeat = \drummode {
