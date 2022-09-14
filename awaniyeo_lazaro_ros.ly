@@ -25,7 +25,7 @@ melody = \relative c' {
 				g4 g g2 | r8 f4 g8 a4 f | d8 d4 f f c8~ | c2 d4 f~ | f8 f4 f8~ f2 | % wá ni yẹ́ A wá ni yẹ́ Kó má sé yà (a)'wo. A wá ni yẹ́
 			}
 			\repeat volta 2 {
-				f4. d8 c4 d | f2 f2 | g8 a4 a g a8~ | a8 a4 g4. r4 | % E ma -- ri -- wo yan yan Áárẹ ré Áárẹ ré o
+				f4. d8 c4 d | f2 f2 | g8 a4 a g a8~ | a8 a4 g4. r4 | % E Mà -- rì -- wò yan yan Áárẹ ré Áárẹ ré o
 			}
 			\repeat volta 2 {
 				d' c a f | d'4. c a4 | r4. f f4~ | f1 | % Ọ go mo dá nṣé le yo. (Ọ go)
@@ -33,19 +33,29 @@ melody = \relative c' {
 				a g a g8. g16 | f4 d f4. d8~ | d4. f f4 | % gún Áá -- rẹ ré de a wá me dá (Ọ go
 				d d f4. f8 | % mo dá nṣé le)
 			}
+			\repeat volta 2 {
+				g2.~ g8( d | c4 f~ f4.) d8( | c1) | r | % Eè -- kwa!
+				g'2.~ g8( d | c4 f) c r | % Eè -- kwa!
+				g' g a g | d f c c | d r8 d d4 f | c c c r | % Ké -- yẹ́ ké -- yẹ́ mo dá nṣé Ò -- gún A -- là -- dó (L)Ò -- rì -- ṣa
+			}
+			r4. c8 c4 c |
+			\repeat volta 2 {
+				bes d g, g | c c c c | % (Mà -- rì -- wò mo dá nṣé lo A -- lá -- gbẹ̀ -- dẹ)
+				c g' f f | d4. c8 c4 c | % Mo dá nṣé Ò -- gún
+			}
 		}
 }
 
 text =  \lyricmode {
-	A wá ni yẹ́ o Ò -- gún Ma -- ri -- wo
-	A wá ni yẹ́ o Ò -- gún Ma -- ri -- wo
+	A wá ni yẹ́ o Ò -- gún Mà -- rì -- wò
+	A wá ni yẹ́ o Ò -- gún Mà -- rì -- wò
 	Ò -- gún o fo -- mo de O -- ni -- le A -- be re
-	Ma -- ri -- wo Ò -- gún de Bam -- ba.
+	Mà -- rì -- wò Ò -- gún dé Bam -- ba.
 
 	A wá ni yẹ́ Kó má sé yà (a)'wo.
 	(A wá ni yẹ́ A wá ni yẹ́ Kó má sé yà (a)'wo. A wá ni yẹ́)
 
-	(E ma -- ri -- wo yán yá) Áá -- rẹ ré Áá -- rẹ ré o
+	(E Mà -- rì -- wò yán yá) Áá -- rẹ ré Áá -- rẹ ré o
 
 	Ọ go mo dá nṣé le yo. (Ọ go)
 	Ọ go mo dá nṣé le yo. (Ọ go)
@@ -55,6 +65,9 @@ text =  \lyricmode {
 	Eè -- kwa! Eè -- kwa!
 	Ké -- yẹ́ ké -- yẹ́ mo dá nṣé
 	Ò -- gún A -- là -- dó (L)Ò -- rì -- ṣa
+
+	(Mà -- rì -- wò mo dá nṣé lo A -- lá -- gbẹ̀ -- dẹ)
+	Mo dá nṣé Ò -- gún (Mà -- rì -- wò
 }
 
 clavebeat = \drummode {
@@ -69,6 +82,14 @@ clavebeat = \drummode {
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+
+	r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+
+
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r |
 }
 
 \score {
@@ -91,6 +112,9 @@ clavebeat = \drummode {
 
 \markup {
     \column {
+        \line { \null }
+        \line { \null }
+        \line { \null }
         \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
