@@ -21,21 +21,51 @@ melody = \relative c' {
 				f4 a c a~ | a f f2 |  % Mariwo Ògún de Bamba
 			}
 			\repeat volta 2 {
-				f4. d8 c4 d | f2 f2 | g8 a4 a g a8~ | a8 a4 g4. r4 | % E ma -- ri -- wo yan yan Aare re Aare re o
+				r8 f4 a8 d4 c | a8 a4 c c f,8~ | f4 r2 f4 | % A wá ni yẹ́ Kó má sé yà (a)'wo. A
+				g4 g g2 | r8 f4 g8 a4 f | d8 d4 f f c8~ | c2 d4 f~ | f8 f4 f8~ f2 | % wá ni yẹ́ A wá ni yẹ́ Kó má sé yà (a)'wo. A wá ni yẹ́
+			}
+			\repeat volta 2 {
+				f4. d8 c4 d | f2 f2 | g8 a4 a g a8~ | a8 a4 g4. r4 | % E ma -- ri -- wo yan yan Áárẹ ré Áárẹ ré o
+			}
+			\repeat volta 2 {
+				d' c a f | d'4. c a4 | r4. f f4~ | f1 | % Ọ go mo dá nṣé le yo. (Ọ go)
+				d'4 c a f | d'4. c a4 | r4. f f4~ | f2. f4 | % Ọ go mo dá nṣé le yo. (Ọ go) Ò --
+				a g a g8. g16 | f4 d f4. d8~ | d4. f f4 | % gún Áá -- rẹ ré de a wá me dá (Ọ go
+				d d f4. f8 | % mo dá nṣé le)
 			}
 		}
 }
 
 text =  \lyricmode {
-	A wa ni e o Ò -- gún Ma -- ri -- wo
-	A wa ni e o Ò -- gún Ma -- ri -- wo
+	A wá ni yẹ́ o Ò -- gún Ma -- ri -- wo
+	A wá ni yẹ́ o Ò -- gún Ma -- ri -- wo
 	Ò -- gún o fo -- mo de O -- ni -- le A -- be re
 	Ma -- ri -- wo Ò -- gún de Bam -- ba.
-	E ma -- ri -- wo yan yan Aa -- re re Aa -- re re o
+
+	A wá ni yẹ́ Kó má sé yà (a)'wo.
+	(A wá ni yẹ́ A wá ni yẹ́ Kó má sé yà (a)'wo. A wá ni yẹ́)
+
+	(E ma -- ri -- wo yán yá) Áá -- rẹ ré Áá -- rẹ ré o
+
+	Ọ go mo dá nṣé le yo. (Ọ go)
+	Ọ go mo dá nṣé le yo. (Ọ go)
+	Ò -- gún Áá -- rẹ -- 'ré de a wá me dá
+	(Ọ go mo dá nṣé le)
+
+	Eè -- kwa! Eè -- kwa!
+	Ké -- yẹ́ ké -- yẹ́ mo dá nṣé
+	Ò -- gún A -- là -- dó (L)Ò -- rì -- ṣa
 }
 
 clavebeat = \drummode {
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+
+
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
