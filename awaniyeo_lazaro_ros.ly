@@ -83,13 +83,11 @@ clavebeat = \drummode {
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 
-	r4 cl4 cl r |
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 
-
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
-	cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 |
 }
 
 \score {
@@ -114,13 +112,24 @@ clavebeat = \drummode {
     \column {
         \line { \null }
         \line { \null }
-        \line { \null }
-        \line { \null }
         \line { Translation (based on John Mason): }
         \line { \null }
         \line { We come to honor you, Ògún of the Palm Fronds. }
         \line { Ògún you scrub clean the hunter, owner of the house. }
         \line { Razor that cuts palm fronds. Ògún arrives, the stout one.}
+        \line { \null }
+        \line { We come to honor you. }
+        \line { Do not block or turn aside initiates. }
+        \line { \null }
+        \line { The evenly swaying palm fronds give way. }
+        \line { Chief of Ìré, you are chief of Ìré. }
+        \line { \null }
+        \line { Oh! Oh! Shout out to honor. Shoult out to honor. }
+        \line { I am acting alone, Ògún, owner of goard charms, Orisha. }
+        \line { \null }
+        \line { (Not sure what O go or le o are supposed to be/mean)... I am acting alone... }
+        \line { \null }
+        \line { Palm fronds/skirt of fronds, I am acting alone, Blacksmith. }
         \line { \null }
 				\line { There is a recording of Lazaro Ros doing this song, title Awaniyeo, Awanile... }
     }

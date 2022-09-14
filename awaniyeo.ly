@@ -36,7 +36,7 @@ melody = \relative c' {
 
 			\repeat volta 2 {
 				g4 a8 a g4 | a8 a4 g8 r4 | % Áá -- rẹ Áá -- rẹ o
-				f4 d8 d d4 | f4. f8 r4 | % (E Ma -- ri -- wo yan yan)
+				f4 d8 d d4 | f4. f8 r4 | % (E Mà -- rì -- wò yan yan)
 			}
 
 			\repeat volta 2 {
@@ -47,17 +47,17 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	A wá ni yẹ́ o Ò -- gún Ma -- ri -- wo
-	A wá ni yẹ́ o Ò -- gún Ma -- ri -- wo
+	A wá ni yẹ́ o Ò -- gún Mà -- rì -- wò
+	A wá ni yẹ́ o Ò -- gún Mà -- rì -- wò
 	Ò -- gún o fo -- mo de O -- ni -- le A -- be rẹ
-	Ma -- ri -- wo Ò -- gún de Bam -- ba. A wa ni e
+	Mà -- rì -- wò Ò -- gún dé Bam -- ba. A wa ni e
 
 	-- ba. (A
 
 	wá ni yẹ́ Áá -- rẹ -- rẹ Kó má sé yà (a)'wo
 	A wá ni yẹ́) Áá -- rẹ -- rẹ Kó má sé yà (a)'wo
 
-	Áá -- rẹ -- rẹ Áá -- rẹ -- rẹ o (E Ma -- ri -- wo yan yan)
+	Áá -- rẹ -- rẹ Áá -- rẹ -- rẹ o (E Mà -- rì -- wò yan yan)
 
 	E Áá -- rẹ -- rẹ o
 	(Áá -- rẹ -- rẹ Áá -- rẹ -- rẹ o)
