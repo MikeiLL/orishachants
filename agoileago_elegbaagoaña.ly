@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Bara Suwa Yo"
+	title = "Ago Ile and Elegua Ago Aña"
 	subtitle = "for Eleggua and Aña"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2022 by Pinpin Balewa for Osun's Golden Harvest of Love and Light Pensacola, Florida"
