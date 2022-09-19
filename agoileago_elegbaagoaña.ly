@@ -21,9 +21,11 @@ melody = \relative c'' {
 				a4 a8 a c4 | a8 c4 g r8 | a4 a8 a c4 | a8 c4 g r8 | % % aeo ile aeo 'ya
 			}
 			\repeat volta 2 {
-				r4 a8 a a a | c2. | r2. | r4 a8 d c c | a a4 f8 r4 |
-				r4 a8 a a a | c2. | r2. | r4 a8 d c c | a a4 f8 r4 |
+				r4 a8 a a a | c2. | r4 a8 d c c | a a4 f8 r4 |
+				r4 a8 a a a | c2. | r4 a8 d c c | a a4 f8 r4 |
 				d'8 d4 d8 c4 | a8 a4 a8 g4 | r4 f8 f g g | a a4 f8 r4 |
+			}
+			\repeat volta 2 {
 				d'8 d4 d8 c4 | a8 a4 a8 g4 | r4 f8 f g g | a a4 f8 r4 |
 			}
 		}
@@ -36,9 +38,9 @@ text =  \lyricmode {
 	(A -- go, I -- le A -- go 'ya.)
 
 	E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.
-	(E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.)
+	E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.
 	A La -- ro -- ye ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.
-	(A La -- ro -- ye ma -- sa nki -- o. E -- leg -- gua a -- go A -- ña.)
+	A La -- ro -- ye ma -- sa nki -- o. (E -- leg -- gua a -- go A -- ña.)
 }
 
 clavebeat = \drummode {
@@ -47,7 +49,6 @@ clavebeat = \drummode {
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
