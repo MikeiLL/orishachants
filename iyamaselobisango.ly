@@ -15,11 +15,11 @@ melody = \relative c'' {
 	\new Voice = "words" {
 			\partial 4 g8 c | % Ìyá
 			\repeat volta 2 {
-				g4 g8 a f d | g4 r4 g8 c | %  Máāsè ló bí Ṣàngó Ìyá 
-				g4 g8 a f d | g( f ) r2| % Máāsè ló bí Ṣàngó
-				g8 g g a f d | g16 f f4 f4. | % Gbogbo ará yẹ̀ oní 'kú ele
-				r8 d8 f c4 c8 | d bes g c4 r8 | % Ìyá Máāsè ló bí Ṣàngó
-				d d d f f c | d16 c c4 c8 g'8 c |% Gbogbo ará yẹ̀ oní 'kú ele
+				g4 g8 a f d | g4 r4 g8 c | %  Máāsè ló bí Ṣàngó Ìyá
+				g4 g8 a f d | g( f ) r g g g | % Máāsè ló bí Ṣàngó Gbogbo a
+				a f d g16 f f4 | f4. r8 d8 f | % rá yẹ̀ oní 'kú ele. Ìyá
+				c4 c8 d bes g | c4 r8 d d d | % Máāsè ló bí Ṣàngó Gbogbo a
+				f f c d16 c c4 | c8 r4. d8 d |% rá yẹ̀ oní 'kú ele
 			}
 		}
 }
@@ -40,7 +40,6 @@ clavebeat = \drummode {
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
-	cl4 cl r8 cl8 | r8 cl r cl r4 |
 }
 
 \score {
@@ -51,12 +50,12 @@ clavebeat = \drummode {
   	}
   		<<
   		\set Staff.instrumentName = #"clave"
-		\clavebeat 
+		\clavebeat
 		>>
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
-  	
+
     \new Lyrics \lyricsto "words" \text
   >>
 }
