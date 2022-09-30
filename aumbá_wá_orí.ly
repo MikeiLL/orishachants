@@ -60,6 +60,27 @@ clavebeat = \drummode {
 
 \markup {
     \column {
-        \line { \null }
+			\line { \null }
+			\line { Translation from Ócháni Lele who has slightly different words than common: }
+			\line { \null }
+			\line { A nwa wa orí. A nwa wa ori. Awa o sun, awa o ma. Awa o ma ye ya o. Ará orún ta iye. }
+			\line { \null }
+			\line { source: https://ochanilele.wordpress.com/2017/02/08/aumba-wa-ori-song-one }
+			\line { \null }
+			\line { \null }
+			\line { We are searching for him, we can’t see him. We are searching for him, we can’t see him.  }
+			\line { We do not sleep, we do not know.  }
+			\line { We do not know where he went to, we are only left with a shadow.  }
+			\line { The people of heaven sell memories. }
+			\line { \null }
+			\line { Variations: }
+			\line { \null }
+        \line { ONE: Aumbá ... Ará Orún kawé. (citizens of heaven) }
+        \line { TWO: ...gbogbo egun kawé. (everyone's ancestors) }
+        \line { THREE: ...babá egun kawé. (paternal ancestors) }
+        \line { FOUR: ...iyá egun kawé. (maternal ancestors) }
+        \line { FIVE: ...mókékeré egún kawé. (ancestors who are babies/children) }
+        \line { SIX: ...egun ilé kawé. (ancestors of our ocha house) }
+        \line { UNTIL THE END: ...[name the individual ancestor of stone or blood] kawé. }
     }
 }
