@@ -4,8 +4,8 @@
 	title = "Bárí (I)'ba Ọgé dé máā"
 	subtitle = "for Babalúayé"
 	copyright = "© Public Domain"
-	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
-	piece = "rhythm: Babalúayé"
+	tagline = "Transcribed in 2022 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	piece = "tóque: Babalúayé"
 }
 
 melody = \relative c' {
