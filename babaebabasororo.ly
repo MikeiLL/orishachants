@@ -71,6 +71,10 @@ clavebeat = \drummode {
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 }
 
 \score {
