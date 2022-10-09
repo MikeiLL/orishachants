@@ -12,35 +12,48 @@ melody = \relative c'' {
   \key f \major
   \time 6/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
-	\new Voice = "words" {			
+	\new Voice = "words" {
 			\repeat volta 2 {
 				r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹBaba soròso
 				r4 a a | c2 r4 | r d c | a8 c4 a4 r8 | % Baba ẹBaba soròso
 				d8 d d d c4~ | c8 a4 a f8 | g4 f f | g8 a4 g8 a4 | % Babalúaiyé 'yà nfò 'mo de Baba ş'ire ş'ire
-			}		
+			}
+			\repeat volta 2 {
+				c8 c e4 c8 c | e4 c8 a bes4 | % Ṣ' i -- re ş' i -- re ì -- mo gbá
+				r4 f f | g8 a4 g8 a4 | % Ba -- ba ş'i -- re ş'i -- re
+				c8 c c c e4 | r8 a,4 bes g8 | % Ọ -- ba -- lú -- a -- yé yán fò̩ mọ
+				a8 r f4 f | g8 a4 g8 a4 | % le (Ba -- ba ş'i -- re ş'i -- re)
+			}
 			\repeat volta 2 {
 				g8 g4 g8 g4 | c,8 c4 d f8 | c8 r4 d8( f4) | g8 d4 f4. | % Wúre wúre Alánbẹlè kò Baba lóde
 			}
 			\repeat volta 2 {
-				f8 f a g g f | f4 r2 | % Ero ma Inle Awua 
-				f8 f a g g f | f g bes c g g | % Ero ma Inle Awua Saguade Iya 
+				f8 f a g g f | f4 r2 | % Ero ma Inle Awua
+				f8 f a g g f | f g bes c g g | % Ero ma Inle Awua Saguade Iya
 				f f f f f c' | bes c bes a g r |% Coma Coma coma rele Awua o
-				g g g f f c | c d f g f f | % Ero ma Inle Awua Saguade Iya 
+				g g g f f c | c d f g f f | % Ero ma Inle Awua Saguade Iya
 				c c c c c f | ees f ees f4 r8 | % Coma Coma coma rele Awua
 			}
-		}	
+		}
 }
 
 text =  \lyricmode {
 	Ba -- ba ẹ Ba -- ba so -- rò -- so
 	Ba -- ba ẹ Ba -- ba so -- rò -- so
-	Ba -- ba -- lú -- ai -- yé 'yà nfò 'mo de
+	Ba -- ba -- lú -- a -- yé 'yà nfò 'mo de
 	Ba -- ba ş'i -- re ş'i -- re
+
+	Ṣ' i -- re ş' i -- re ì -- mo gbá
+	(Ba -- ba ş'i -- re ş'i -- re)
+	Ọ -- ba -- lú -- a -- yé yán fò̩ mọ le
+	(Ba -- ba ş'i -- re ş'i -- re)
+
 	Wú -- re wú -- re A -- lán -- bẹ lè kò Ba -- ba ló -- de
-	E -- ro ma In -- le A -- wua 
-	E -- ro ma In -- le A -- wua Sa -- gua -- de I -- ya 
+
+	E -- ro ma In -- le A -- wua
+	E -- ro ma In -- le A -- wua Sa -- gua -- de I -- ya
 	Co -- ma Co -- ma co -- ma re -- le A -- wua o
-	E -- ro ma In -- le A -- wua Sa -- gua -- de I -- ya 
+	E -- ro ma In -- le A -- wua Sa -- gua -- de I -- ya
 	Co -- ma Co -- ma co -- ma re -- le A -- wua
 }
 
@@ -68,12 +81,12 @@ clavebeat = \drummode {
   	}
   		<<
   		\set Staff.instrumentName = #"clave"
-		\clavebeat 
+		\clavebeat
 		>>
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
-  	
+
     \new Lyrics \lyricsto "words" \text
   >>
 }
@@ -85,6 +98,12 @@ clavebeat = \drummode {
         \line { \null }
         \line { Father, honored father, bind and facilitate growth.}
         \line { Father, lord of the world, punishment jumps on your child. }
+        \line { Father, do good; do good. }
+        \line { \null }
+
+        \line { Do goodness. Do goodness. }
+        \line { Father, do good; do good. }
+        \line { King, lord of the world chooses to scrub the child healthy. }
         \line { Father, do good; do good. }
         \line { \null }
         \line { You are wished increased blessings. }
