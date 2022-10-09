@@ -5,6 +5,7 @@
 	subtitle = "for Babalúayé"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	piece = "rhythm: Babalúayé"
 }
 
 melody = \relative c' {
@@ -48,6 +49,8 @@ text =  \lyricmode {
 }
 
 clavebeat = \drummode {
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
