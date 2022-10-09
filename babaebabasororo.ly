@@ -4,7 +4,8 @@
 	title = "Baba ẹ Baba soròso"
 	subtitle = "for Babalúaiyé"
 	copyright = "© Public Domain"
-	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	tagline = "Transcribed in 2020, 2022 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	piece = "tóque: Babalúayé"
 }
 
 melody = \relative c'' {
