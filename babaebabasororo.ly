@@ -5,7 +5,7 @@
 	subtitle = "for Babalúaiyé"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2020, 2022 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
-	piece = "tóque: Babalúayé"
+	piece = "tóque: San Lazaro"
 }
 
 melody = \relative c'' {
