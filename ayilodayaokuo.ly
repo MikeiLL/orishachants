@@ -38,6 +38,12 @@ melody = \relative c'' {
 				g8 r f bes a4 | f8 r a4 a | % de a -- ri -- wo 'ya. O -- yá
 				g8 r f bes a4 | f8 r a4 a | % de a -- ri -- wo 'ya. O -- yá
 			}
+
+			\repeat volta 2 {
+				c8 c4 d8 c4 | g4 r8 e8 a e | % Ka -- la ka -- la wo o ni o
+				g8 g4 a8 g4 | c,8 c4 c8 r4 | % ka -- la la -- we o le le
+			}
+
 		}
 }
 
@@ -55,9 +61,14 @@ text =  \lyricmode {
 	O -- yá
 	de a -- ri -- wo 'ya.
 	O -- yá
+
+	Ka -- la ka -- la wo o ni o
+	ka -- la la -- wa o le le
 }
 
 clavebeat = \drummode {
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
+	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
 	cl4 cl r8 cl8 | r8 cl r cl r4 |
