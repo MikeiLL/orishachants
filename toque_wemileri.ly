@@ -38,9 +38,9 @@ clavebeat = \drummode {
 
 oconcolo = \drummode {
 	\partial 4 r4 |
-  cgl4. ssh4 cgl8 | ssh4. ssh8 cgl4 |
-  cgl4. ssh4 cgl8 | ssh4. ssh8 cgl4 |
-  cgl4. ssh4 cgl8 | ssh4. ssh8 cgl4 |
+  <<cgl4. ssh4.>> ssh4 cgl8 | ssh4. ssh8 cgl4 |
+  <<cgl4. ssh4.>> ssh4 cgl8 | ssh4. ssh8 cgl4 |
+  <<cgl4. ssh4.>> ssh4 cgl8 | ssh4. ssh8 cgl4 |
 }
 
 itotole = \drummode {
@@ -55,9 +55,9 @@ itotole = \drummode {
 
 iya = \drummode {
 	\partial 4 r4 |
-  cglo8 ssh cglo r ssh4 | r8 ssh4 r8 ssh cglm |
-  cglo8 ssh cglo r ssh4 | r8 ssh4 r8 ssh cglm |
-  cglo8 ssh cglo r ssh4 | r8 ssh4 r8 ssh cglm |
+  cglo8 ssh cglo r ssh4 | r8 ssh8. cgl16 r8 ssh cglm |
+  cglo8 ssh cglo r ssh4 | r8 ssh8. cgl16 r8 ssh cglm |
+  cglo8 ssh cglo r ssh4 | r8 ssh8. cgl16 r8 ssh cglm |
 }
 
 \score {
