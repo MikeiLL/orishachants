@@ -13,11 +13,11 @@ melody = \relative c'' {
   \time 12/8
   \set Score.voltaSpannerDuration = #(ly:make-moment 4/4)
 	\new Voice = "words" {
-		\partial 4. a8 a a~ | % Wẹ́ mi l'è...
+		\partial 4 a8 a | % Wẹ́ mi l'è...
 			\repeat volta 2 {
-			 	a f8 a a g4 f8( d) f4 r | % èrè (Ẹ̀) 'lúbẹ, o̩ mo 'yó
-        a8 c f, a g4 f8( d) f8( d) r d | % E̩ wẹ́ wẹ́ mi o̩ mo 'yó. Ṣàn
-        f d g g d4 d8( c) d a' a a~ | % gó, ko wà 'yè. O̩ mo 'yó Wẹ́ mi
+			 	a4 f8 a a g4 f8( d) f4 r8 | % èrè (Ẹ̀) 'lúbẹ, o̩ mo 'yó
+        r8 a c f, a g4 f8( d) f8( d) r | % E̩ wẹ́ wẹ́ mi o̩ mo 'yó.
+        d f d g g d4 d8( c) d a' a | % Ṣàn gó, ko wà 'yè. O̩ mo 'yó Wẹ́ mi
 			}
 		}
 }
@@ -30,10 +30,10 @@ text =  \lyricmode {
 }
 
 clavebeat = \drummode {
-	\partial 4. r4. |
-  r4 cl cl r8 cl r cl r cl |
-  r4 cl cl r8 cl r cl r cl |
-  r4 cl cl r8 cl r cl r cl |
+	\partial 4 r4 |
+  cl4. cl4 cl4. cl4 cl |
+  cl4. cl4 cl4. cl4 cl |
+  cl4. cl4 cl4. cl4 cl |
 }
 
 \score {
