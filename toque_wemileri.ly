@@ -45,12 +45,12 @@ oconcolo = \drummode {
 
 itotole = \drummode {
 	\partial 4 r4 |
-  \parenthesize ssl8. -"touch" ssh cglo ssh |
-  \parenthesize ssl ssh cglo ssh |
-  \parenthesize ssl ssh cglo ssh |
-  \parenthesize ssl ssh cglo ssh |
-  \parenthesize ssl ssh cglo ssh |
-  \parenthesize ssl ssh cglo ssh |
+  \parenthesize cgl8. -"touch" ssh cglo ssh |
+  \parenthesize cgl ssh cglo ssh |
+  \parenthesize cgl ssh cglo ssh |
+  \parenthesize cgl ssh cglo ssh |
+  \parenthesize cgl ssh cglo ssh |
+  \parenthesize cgl ssh cglo ssh |
 }
 
 iya = \drummode {

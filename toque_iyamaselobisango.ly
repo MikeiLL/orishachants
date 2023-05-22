@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Ìyá Máāsè ló bí Ṣàngó"
+	title = "Toque Ìyá Máāsè"
 	subtitle = "for Ṣàngó"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
@@ -50,6 +50,9 @@ oconcolo = \drummode {
   cglo8 cglo16 ssh8. cglo ssh |
   cglo8 cglo16 ssh8. cglo ssh |
   cglo8 cglo16 ssh8. cglo ssh |
+  cglo8 cglo16 ssh8. cglo ssh |
+  cglo8. ssh cglo8 cglo16 ssh8. |
+  ssh8 cglo4 ssh8 cglo cglo | ssh cglo4 << ssh8 cglo >> r cglo |
 }
 
 itotole = \drummode {
@@ -60,11 +63,22 @@ itotole = \drummode {
   ssh4. ssh8 cglo cglo |
   ssh4. ssh8 cglo cglo |
   ssh4. ssh8 cglo cglo |
+  ssh4. ssh8 cglo cglo |
+  ssh ^"variation" cglm cglm ssh8 cglo cglo |
+  \parenthesize cgl8 ^"touch" ssh cglo ssh cglm ssh | \parenthesize cgl8 ssh cglo ssh cglm ssh |
 }
 
 iya = \drummode {
 	\partial 4 r4 |
   r8 r8. ssh16 r16 cglo8. ssh8 |
+  r8 ^"variations" r8. ssh16 cglo8 ssh ssh |
+  r4 cglo8 cglo16 cglo ssh8 ssh |
+  r8 ssh8. ssh16 r8 ssh ssh |
+  r8 ssh ssh r16 ssh8. ssh8 |
+  cglo8 r8. ssh16 cglo8 r ssh |
+  r8 ssh ssh cglo16 cglo8 cglo16 cglo8 |
+  r8 r8. ssh16 r16 cglo8. ssh8 |
+  << ssh4 cglo >> ssh ssh8 cglo | << ssh4 cglo >> << ssh8 cglo >> cglo ssh cglo |
 }
 
 \score {
@@ -110,15 +124,4 @@ iya = \drummode {
 
     \new Lyrics \lyricsto "words" \text
   >>
-}
-
-\markup {
-    \column {
-        \line { \null }
-        \line { Translation (based on John Mason): }
-        \line { \null }
-        \line { Ìyá Máāsè was used to give birth to Ṣàngó }
-        \line { All inhabitants avoid the owner of violent death. }
-        \line { (Ìyá Máāsè is the oldest female principle in Ṣàngó's worship. ) }
-    }
 }
