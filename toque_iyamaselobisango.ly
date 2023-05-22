@@ -4,7 +4,7 @@
 	title = "Toque Ìyá Máāsè"
 	subtitle = "for Ṣàngó"
 	copyright = "© Public Domain"
-	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
+	tagline = "Transcribed in 2023 by Pinpin Balewa for Osun's Golden Harvest of Love and Light Pensacola, Florida"
 }
 
 melody = \relative c'' {
