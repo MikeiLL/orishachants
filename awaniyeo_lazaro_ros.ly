@@ -28,9 +28,9 @@ melody = \relative c' {
 				f4. d8 c4 d | f2 f2 | g8 a4 a g a8~ | a8 a4 g4. r4 | % E Mà -- rì -- wò yan yan Áárẹ ré Áárẹ ré o
 			}
 			\repeat volta 2 {
-				d' c a f | d'4. c a4 | r4. f f4~ | f1 | % Ọ go mo dá nṣé le yo. (Ọ go)
-				d'4 c a f | d'4. c a4 | r4. f f4~ | f2. f4 | % Ọ go mo dá nṣé le yo. (Ọ go) Ò --
-				a g a g8. g16 | f4 d f4. d8~ | d4. f f4 | % gún Áá -- rẹ ré de a wá me dá (Ọ go
+				r4. d'4. c4 | a f d' c | a4 r8 f4. f4~ | f1 | % Ọ go mo dá nṣé le yo. (Ọ go)
+				r4. d'4. c4 | a f d' c | a4 r8 f4. f4~ | f2. f4 | % Ọ go mo dá nṣé le yo. (Ọ go) Ò --
+				a g a g8. g16 | f4 d f4. d8( | c4.) f f4 | % gún Áá -- rẹ ré de a wá me dá (Ọ go
 				d d f4. f8 | % mo dá nṣé le)
 			}
 			\repeat volta 2 {
