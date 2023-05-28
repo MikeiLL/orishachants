@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Tóque Koma rita Dide Osun"
+	title = "Tóque Koma ri ida Dide Osun"
 	subtitle = "for Osun"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2023 by Pinpin Balewa for Osun's Golden Harvest of Love and Light Pensacola, Florida"
@@ -21,10 +21,10 @@ melody = \relative c'' {
 }
 
 text =  \lyricmode {
-	Ye ye ko -- ma ri -- ta ye -- ye O -- sun.
-  Se -- ke. Se -- ke.
-  Se -- ke. Se -- ke. Se -- ke.
-  Ko -- ma ri -- ta ye -- ye la -- de  O -- sun.
+	Yè -- yé kó -- màá rí -- (i)da yè -- yé Ọ̀ -- ṣun.
+  Sẹ́ -- kẹ́. Sẹ -- kẹ́.
+  Sẹ́ -- kẹ́. Sẹ -- kẹ́. Sẹ́ -- kẹ́.
+  Kó -- màá rí -- (i)da yè -- yé la -- de Ọ̀ -- ṣun.
 }
 
 clavebeat = \drummode {
