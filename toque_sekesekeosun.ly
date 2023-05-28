@@ -110,7 +110,8 @@ iya = \drummode {
 			\line { \null }
 			\line { Translation from John Mason}
 			\line { \null }
-			\line { Coming soon }
-			\line { \null }
+			\line { Let us not see the brass sword of Ọ̀ṣun. }
+			\line { Handcuffs, handcuffs, handcuffs (brass bracelets). }
+      \line { Let us not see the sword and not the handcuffs of Ọ̀ṣun. }
     }
 }
