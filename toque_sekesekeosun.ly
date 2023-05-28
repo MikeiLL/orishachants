@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Tóque Koma rita Yeye Osun"
+	title = "Tóque Koma rita Dide Osun"
 	subtitle = "for Osun"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2023 by Pinpin Balewa for Osun's Golden Harvest of Love and Light Pensacola, Florida"
@@ -57,7 +57,7 @@ iya = \drummode {
   cglo4. ssh4. | cglo4. ssh4 cglo8 |
   ssh8 ssh4 r cglo8 | ssh8 ssh4 r cglo8  |
   ssh8 ssh4 cglo8 cglo4 | ssh8 ssh4 cglo4 cglo8 |
-  ssh4 ssh4 cglo8 cglo | ssh ssh4 ssh cglo8 |
+  ssh cglo ssh r cglo cglo | ssh ssh4 ssh8 cglo cglo |
 }
 
 \score {
