@@ -2,8 +2,9 @@
 
 \header {
 	title = "Elegua Elegua O Okan Mellis Elese Elegua"
-	subtitle = "for Elegba (https://youtu.be/gffZHEM7XzU?t=505)"
+	subtitle = "for Elegba"
 	copyright = "© Public Domain"
+  piece = "rhythm: Ya Topa refernce: https://youtu.be/gffZHEM7XzU?t=505"
 	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
 }
 
