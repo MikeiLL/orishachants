@@ -32,6 +32,11 @@ iya = \drummode {
   \repeat volta 2 {
     cglo ssh cglm ssh ssh cglm | cglo ssh cglm r ssh cglm |
   }
+  \time 4/4
+  ssh4. ssh8 r2 | ssh4 ssh r2 |
+  \repeat volta 2 {
+    ssh4 r8 ssh r cglo8 r4 |
+  }
 }
 
 \score {
