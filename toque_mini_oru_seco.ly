@@ -11,10 +11,18 @@
 
 oconcolo = \drummode {
 	\partial 4 r4 |
+  r2. | r2 r8 cglo |
+  \repeat volta 2 {
+    ssh ^"Ya/La Topa (Eṣu)"  r cglo ssh r cglo | ssh r cglo ssh r cglo |
+  }
 }
 
 itotole = \drummode {
 	\partial 4 r4 |
+  r2. | r8 << ssh cglo >> r cglo ssh r |
+  \repeat volta 2 {
+    r ssh cglm cglo cglo4 | r8 << ssh cglo >> r cglo ssh r |
+  }
 }
 
 iya = \drummode {
@@ -22,7 +30,7 @@ iya = \drummode {
 	\partial 4 ssh16 cglo~ cglo8 |
   cglo ssh16 cglo~ cglo8 cglo ssh16 cglo~ cglo8 | cglo r2 cglm8 |
   \repeat volta 2 {
-    cglo ssh cglm ssh ssh cgm | cglo ssh cglm r ssh cgm |
+    cglo ssh cglm ssh ssh cglm | cglo ssh cglm r ssh cglm |
   }
 }
 
@@ -62,9 +70,7 @@ iya = \drummode {
 \markup {
     \column {
 			\line { \null }
-			\line { Translation from John Mason}
 			\line { \null }
-			\line { Coming soon }
 			\line { \null }
     }
 }
