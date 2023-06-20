@@ -20,6 +20,11 @@ oconcolo = \drummode {
   \repeat volta 2 {
     cglo8. ^"Ogundere" cglo16 ssh4 cglo8 cglo ssh4 |
   }
+  \time 6/8 % Imbaloke
+  r2. | r2 r8 cglo |
+  \repeat volta 2 {
+    ssh ^"Imbaloke (Ochosi)"  r cglo ssh r cglo | ssh r cglo ssh r cglo |
+  }
 }
 
 itotole = \drummode {
@@ -32,6 +37,12 @@ itotole = \drummode {
   r2. << ssh4 cglo >> |
   \repeat volta 2 {
     ssh ssh ssh << ssh4 cglo >> |
+  }
+  \time 6/8 % Imbaloke
+  r2. | r |
+  \repeat volta 2 {
+    cglo8 ssh r cglo8 ssh r |
+    \parenthesize cgl8 -"touch" ssh r \parenthesize cgl8 -"touch" ssh r |
   }
 }
 
@@ -46,6 +57,11 @@ iya = \drummode {
   ssh8. ssh16 r4 ssh8 ssh r4 |
   \repeat volta 2 {
     ssh4 r8 ssh r cglo4. |
+  }
+  \time 6/8 % Imbaloke
+  ssh4. ssh | cglo cglo8 cglo4 |
+  \repeat volta 2 {
+    ssh4. r | ssh cglo8 cglo4 |
   }
 }
 
