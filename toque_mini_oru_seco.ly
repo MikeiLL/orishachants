@@ -21,6 +21,9 @@ iya = \drummode {
   \time 6/8
 	\partial 4 ssh16 cglo~ cglo8 |
   cglo ssh16 cglo~ cglo8 cglo ssh16 cglo~ cglo8 | cglo r2 cglm8 |
+  \repeat volta 2 {
+    cglo ssh cglm ssh ssh cgm | cglo ssh cglm r ssh cgm |
+  }
 }
 
 \score {
