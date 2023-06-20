@@ -36,7 +36,7 @@ oconcolo = \drummode {
     << cglo4 ssh ^"Meta (Shango)" >> cglo8 ssh4. << cglo4 ssh >> cglo8 ssh4. |
   }
   \time 2/4 % Oya
-  r2 |
+  r2 | r |
   \repeat volta 2 {
     ssh8^ "Oyá" << cglo ssh >> ssh << cglo ssh >> |
     ssh ssh << cglo ssh >> ssh |
@@ -83,7 +83,7 @@ itotole = \drummode {
     \parenthesize cgl8 ssh r \parenthesize cgl8 ssh r |
   }
   \time 2/4 % Oya
-  r2 |
+  r2 | r4. r16 cglo |
   \repeat volta 2 {
     cglo8 ssh cglm ssh | cglo8 ssh cglm ssh |
   }
@@ -130,9 +130,10 @@ iya = \drummode {
   }
   \time 2/4 % Oya
   r4 \fermata << cglo8 ssh >> cglo |
+  ssh8 << cglo16 ssh >> cglo cglo cglo cglo8 |
   \repeat volta 2 {
-    ssh8 cglo16 ssh r ssh ssh8 |
-    ssh8 cglo16 ssh r ssh ssh8 |
+    ssh8 cglo16 ssh r ssh r32 ssh16. |
+    ssh8 cglo16 ssh r ssh r32 ssh16. |
   }
   \time 6/8 % Aró
   ssh4. ssh | ssh  << cglo ssh >> |
