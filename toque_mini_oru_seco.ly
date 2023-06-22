@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Tóque Mini Oru Seco"
+	title = "Tóque Oruito Seco"
 	subtitle = "for Seven Primary Orisha"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2023 by Pinpin Balewa for Osun's Golden Harvest of Love and Light Pensacola, Florida"
@@ -111,7 +111,7 @@ iya = \drummode {
   \time 4/4 % Ogundere
   ssh8. ssh16 r4 ssh8 ssh r4 |
   \repeat volta 2 {
-    ssh4 r8 ssh r cglo4. |
+    ssh4 r8 ssh r << cglo4. ssh >> |
   }
   \time 6/8 % Imbaloke
   ssh4. ssh | cglo cglo8 cglo4 |
@@ -119,7 +119,7 @@ iya = \drummode {
     ssh4. r | ssh cglo8 cglo4 |
   }
   \time 4/4 % Rezo de Obatala
-  \tuplet 3/2 { ssh4 cglo ssh } cglo cglo |
+  \tuplet 3/2 { ssh4 cglo ssh } cglo4. cglo8 |
   \repeat volta 2 {
     ssh cglo8 ssh r ssh ssh cglo |
   }
