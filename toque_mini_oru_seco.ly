@@ -121,7 +121,7 @@ iya = \drummode {
   \time 4/4 % Rezo de Obatala
   \tuplet 3/2 { ssh4 cglo ssh } cglo4. cglo8 |
   \repeat volta 2 {
-    ssh cglo8 ssh r ssh ssh cglo |
+    ssh4 cglo8 ssh r ssh ssh cglo |
   }
   \time 12/8 % Meta
   ssh4. cglo4 ssh8 cglo4 ssh8 cglo4. |
