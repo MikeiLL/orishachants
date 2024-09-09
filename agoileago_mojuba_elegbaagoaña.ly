@@ -20,6 +20,20 @@ melody = \relative c'' {
 			\repeat volta 2 {
 				a4 a8 a c4 | a8 c4 g r8 | a4 a8 a c4 | a8 c4 g r8 | % % aeo ile aeo 'ya
 			}
+      \repeat volta 2 {
+				d4 d8 e c4 | a8 d4 r4. | d4 d8 e c4 | % aeo ile aeo x2
+			}
+      \alternative {
+        {
+          a8 d4 r4. | % aeo ile aeo x2
+        }
+        {
+          a8 d4 r8 d'8 d | % aeo ile aeo x2
+        }
+      }
+			\repeat volta 2 {
+				d a4. c8 c | c g g g r c, | g'2 c8 c | c g g g d' d | % % aeo ile aeo 'ya
+			}
 			\repeat volta 2 {
 				r4 a8 a a a | c2. | r4 a8 d c c | a a4 f8 r4 |
 				r4 a8 a a a | c2. | r4 a8 d c c | a a4 f8 r4 |
@@ -36,6 +50,10 @@ text =  \lyricmode {
 	(A -- go, I -- le. A -- go.)
 	A -- go, I -- le A -- go 'ya.
 	(A -- go, I -- le A -- go 'ya.)
+	A -- go, I -- le. A -- go.
+	(A -- go, I -- le. A -- go.) A -- go.)
+  Mo -- ju -- ba o. Mo -- ju -- ba O -- ri -- sha.
+  (A -- še. Mo -- ju -- ba O -- ri -- sha.)
 
 	E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.
 	E -- leg -- gua a -- go. E -- leg -- gua a -- go, A -- ña.
