@@ -15,10 +15,10 @@ melody = \relative c' {
 	\new Voice = "words" {
 		\partial 4 f4 | aes f f d | % Ago Elegba
 			\repeat volta 2 {
-			 	a'2. a4 | c a a g | % go Elegba e Ago Elegba 
-				f2. f8 f | aes4 f f d | a'2. a8 a | c4 a a g | % e Esu Baba emi e Esu Baba emi 
-				f2. f4 | aes f f d | a'2. a4 | c a a g | % E Awa la temu e Awa la temu 
-				f2. f4 | aes f f d | a'2. a4 | c a a g | % E A fe gi so fi e A fe gi so fi 
+			 	a'2. a4 | c a a g | % go Elegba e Ago Elegba
+				f2. f8 f | aes4 f f d | a'2. a8 a | c4 a a g | % e Esu Baba emi e Esu Baba emi
+				f2. f4 | aes f f d | a'2. a4 | c a a g | % E Awa la temu e Awa la temu
+				f2. f4 | aes f f d | a'2. a4 | c a a g | % E A fe gi so fi e A fe gi so fi
 				f2. f4 | aes f f d | a'2. a4 | c a a g | % E Iya Olokun e Iya Olokun
 				f2. f4 | aes f f d | a'2. a4 | c a a g | % E Iya Ore Fa e Iya Ore Fa
 				f2. f4 | aes f f d | %  e Ago Elegba
@@ -28,28 +28,28 @@ melody = \relative c' {
 
 text =  \lyricmode {
 	A -- go E -- leg -- ba e
-	A -- go E -- leg -- ba e
+	(A -- go E -- leg -- ba e)
 	E -- su Ba -- ba e -- mi e
-	E -- su Ba -- ba e -- mi e
+	(E -- su Ba -- ba e -- mi e)
 	A -- wa la te -- mu e
-	A -- wa la te -- mu e
+	(A -- wa la te -- mu e)
 	A fe gi so fi e
-	A fe gi so fi e
+	(A fe gi so fi e)
 	I -- ya O -- lo -- kun e
-	I -- ya O -- lo -- kun e
+	(I -- ya O -- lo -- kun e)
 	I -- ya O -- re Fa e
-	I -- ya O -- re Fa e
+	(I -- ya O -- re Fa e)
 	A -- go E -- leg -- ba
 }
 
 clavebeat = \drummode {
 	\partial 4 r4 | r1 |
-	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
-	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
-	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
-	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
-	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
-	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r | 
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
+	cl4. cl8 r4. cl8 | r4 cl4 cl r | cl4. cl8 r4. cl8 | r4 cl4 cl r |
 }
 
 \score {
@@ -60,12 +60,12 @@ clavebeat = \drummode {
   	}
   		<<
   		\set Staff.instrumentName = #"clave"
-		\clavebeat 
+		\clavebeat
 		>>
     \new Staff  {
     	\new Voice = "one" { \melody }
   	}
-  	
+
     \new Lyrics \lyricsto "words" \text
   >>
 }

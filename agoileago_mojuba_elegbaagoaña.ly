@@ -84,11 +84,11 @@ clavebeat = \drummode {
 
 \score {
   <<
+  		<<
   	\new DrumStaff \with {
   		drumStyleTable = #timbales-style
   		\override StaffSymbol.line-count = #1
   	}
-  		<<
   		\set Staff.instrumentName = #"clave"
 		\clavebeat
 		>>
@@ -106,6 +106,7 @@ clavebeat = \drummode {
         \line { Translation (based on John Mason): }
         \line { \null }
         \line { Make way in the house/temple. Make way. }
+        \line { Greetings, Oriša. With universal energy honor and greet the oriša }
         \line { Eleggua, make way for Aña (spirit of the drum). }
         \line { To Laroye (path of Esu who manages realm of communication) we give praise. }
         \line { Eleggua, make way for Aña. }
