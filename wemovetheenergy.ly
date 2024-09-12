@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "We move the energy based on Ago Elegba E"
+	title = "We Move the Energy (based on Ago Elegba E)"
 	subtitle = "for Elegba"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2020 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
