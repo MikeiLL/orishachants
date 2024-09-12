@@ -1,7 +1,7 @@
 \version "2.18.2"
 
 \header {
-	title = "Here's a Child to Save (from Ẹ kẹ́ là Èwe)"
+	title = "Here a Child to Save (from Ẹ kẹ́ là Èwe)"
 	subtitle = "for Egun"
 	copyright = "© Public Domain"
 	tagline = "Transcribed in 2022 by Pinpin Balewa for Osun's Golden Harvest Pensacola, Florida"
@@ -23,7 +23,7 @@ melody = \relative c' {
 }
 
 text =  \lyricmode {
-	Here's a child to save.
+	Here a child to save.
   Child to save who may grow
   who for death is not rea -- dy a
   child to save who may grow
