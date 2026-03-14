@@ -23,7 +23,8 @@ oconcolo = \drummode {
   \time 4/4 % Aguere Ochosi
   r1 | r |
   \repeat volta 2 {
-    cglo4 ^"Aguere Ochosi" <<cglo ssh>> cglo ssh |
+    cglo4 ^"Aguere Ochosi" <<cglo ssh>> cglo ssh | cglo4 <<cglo ssh>> cglo ssh |
+    cglo4 <<cglo ssh>> cglo ssh | cglo4 <<cglo ssh>> cglo ssh |
   }
   %{ \time 6/8 % Imbaloke
   r2. | r2 r8 cglo |
@@ -79,7 +80,7 @@ itotole = \drummode {
   \time 4/4 % Aguere Ochosi
   r2. cglo4 | ssh8 cglo4 cglo8 ssh4 cglo |
   \repeat volta 2 {
-    ssh2 ssh4 cglo |
+    ssh2 ssh4 cglo | ssh2 ssh4 cglo | ssh2 ssh4 cglo | ssh8 cglo4 cglo8 ssh4 cglo |
   }
   \time 4/4 % Rezo de Obatala
   r1 |
@@ -124,9 +125,10 @@ iya = \drummode {
     ssh4 r8 ssh r << cglo4. ssh >> |
   }
   \time 4/4 % Aguere Ochosi
-  << cglo4 ssh >> cglm8 ssh cglo4 ssh |
+  << cglo4 ssh >> cglm8 ssh cglo4 ssh | << cglo4 ssh >> cglm8 ssh cglo4 ssh |
   \repeat volta 2 {
-    << cglo4 ssh >> cglm8 ssh cglo4 ssh | << cglo4 ssh >> cglm8 ssh cglo4 ssh  |
+    << cglo4 ssh >> cglm8 ssh cglo4 ssh | << cglo4 ssh >> cglm8 ssh cglo4 ssh |
+    << cglo4 ssh >> cglm8 ssh cglo4 ssh | << cglo4 ssh >> cglm8 ssh cglo4 ssh |
   }
   %{ \time 6/8 % Imbaloke
   ssh4. ssh | cglo cglo8 cglo4 |
